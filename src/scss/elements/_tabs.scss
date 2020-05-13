@@ -1,0 +1,151 @@
+// let's start off with cart tabs, and than we can take out styles as soon as we see anything repeating.
+.cart-tabs {
+  .nav-tabs {
+    background-color: $color-pale-background;
+    .nav-link.active,
+    .nav-item.show .nav-link {
+      color: $color-orange;
+      background-color: $color-white;
+      border-color: $color-orange transparent transparent;
+    }
+    .nav-item {
+      flex: 1;
+    }
+    .nav-link {
+      border-radius: 0;
+      border-style: solid;
+      border-width: 3px 1px 1px 0;
+      border-color: transparent #f5eee5 #f5eee5;
+      cursor: pointer;
+      padding: 0.625rem 0;
+      text-align: center;
+      font-size: 0.875rem;
+      &:hover,
+      &:focus {
+        &:not(.active) {
+          border-color: rgba(223, 103, 76, 0.5) #f5eee5 #f5eee5;
+        }
+      }
+    }
+  }
+}
+
+// admin page tabs
+
+.admin-tabs {
+  &.nav-tabs {
+    border-bottom: 2px solid $tab-inactive-border;
+    .nav-item {
+      margin-bottom: -2px;
+      .nav-link {
+        border-width: 0 0 2px;
+        border-color: transparent;
+        border-style: solid;
+        border-radius: 0;
+        padding: 0.875rem 1.25rem;
+        cursor: pointer;
+        color: rgba(41, 41, 52, 0.5);
+        &.active {
+          border-bottom-color: $color-cerulean;
+          background-color: transparent;
+          color: $color-dark;
+        }
+      }
+    }
+  }
+}
+.tabs-and-preview {
+  &:last-child {
+    margin-bottom: 2.25rem;
+  }
+  &.full-width {
+    .tab-content {
+      max-width: none;
+      margin-right: 0;
+      .form-wrapper {
+        &:not(.w-360):not(.w-300) {
+          max-width: calc(100% - 300px);
+        }
+      }
+    }
+  }
+  .tab-content-wrapper {
+    padding: 1.25rem;
+    background-color: $color-white;
+    width: 100%;
+    &:not(:last-child) {
+      margin-bottom: 1.25rem;
+    }
+  }
+  .tab-content {
+    .price {
+      width: 160px;
+    }
+    max-width: 390px;
+    width: 100%;
+    margin-right: 3.75rem;
+  }
+  .preview-wrapper {
+    max-width: 265px;
+    width: 100%;
+  }
+  &.admin-settings {
+    .form-wrapper {
+      .field-wrapper {
+        &:not(:last-child) {
+          margin-bottom: 2.5rem;
+        }
+      }
+    }
+  }
+  .form-wrapper {
+    .field-wrapper {
+      &.flex-column {
+        .form-group {
+          width: 100%;
+          margin-right: 0;
+        }
+      }
+      .form-group {
+        margin-bottom: 0;
+        label {
+          color: $color-dark;
+          font-size: 1rem;
+        }
+      }
+    }
+    + .btn-wrapper {
+      &:last-child {
+        margin-top: 2.25rem;
+      }
+    }
+  }
+  .redux-table {
+    margin-top: 3rem;
+  }
+  form + {
+    .admin-action-navigation {
+      background-color: $color-background-gray;
+      margin: 1.5rem -1.25rem -1.25rem;
+      padding: 1.5rem 0 0;
+    }
+  }
+  .w-360,
+  .w-300 {
+    width: 100%;
+    margin-right: 2rem;
+  }
+  .w-360 {
+    max-width: 390px;
+  }
+  .w-300 {
+    max-width: 300px;
+  }
+}
+
+.pane-heading {
+  a {
+    color: $color-cerulean;
+    text-decoration: underline solid;
+  }
+}

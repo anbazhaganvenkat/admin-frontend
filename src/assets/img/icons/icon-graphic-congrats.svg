@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>A13BA974-F71F-4CB7-86A1-B4262C833A34@2x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard---Expert---Accepted" transform="translate(-493.000000, -291.000000)">
+            <g id="Progress" transform="translate(441.000000, 272.000000)">
+                <g id="graphic-congrats" transform="translate(50.000000, 20.000000)">
+                    <circle id="circle" fill-opacity="0.1" fill="#0AC297" cx="45" cy="55" r="40"></circle>
+                    <g id="sun-(1)" transform="translate(23.000000, 33.000000)">
+                        <circle id="Oval" fill="#E8694D" cx="22" cy="22" r="10"></circle>
+                        <path d="M22,0 L22,4" id="Path" stroke="#335262" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M22,40 L22,44" id="Path" stroke="#335262" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M6.44,6.44 L9.28,9.28" id="Path" stroke="#335262" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M34.72,34.72 L37.56,37.56" id="Path" stroke="#335262" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0,22 L4,22" id="Path" stroke="#335262" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M40,22 L44,22" id="Path" stroke="#335262" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M6.44,37.56 L9.28,34.72" id="Path" stroke="#335262" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M34.72,9.28 L37.56,6.44" id="Path" stroke="#335262" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <g id="minimize" transform="translate(13.000000, 29.000000) rotate(-315.000000) translate(-13.000000, -29.000000) translate(4.000000, 20.000000)" stroke="#E8694D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M5,0 L5,3 C5,4.1045695 4.1045695,5 3,5 L0,5 M18,5 L15,5 C13.8954305,5 13,4.1045695 13,3 L13,0 M13,18 L13,15 C13,13.8954305 13.8954305,13 15,13 L18,13 M0,13 L3,13 C4.1045695,13 5,13.8954305 5,15 L5,18" id="Shape"></path>
+                    </g>
+                    <g id="minimize-copy" transform="translate(87.000000, 50.000000) rotate(-315.000000) translate(-87.000000, -50.000000) translate(78.000000, 41.000000)" stroke="#FDC02E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M5,0 L5,3 C5,4.1045695 4.1045695,5 3,5 L0,5 M18,5 L15,5 C13.8954305,5 13,4.1045695 13,3 L13,0 M13,18 L13,15 C13,13.8954305 13.8954305,13 15,13 L18,13 M0,13 L3,13 C4.1045695,13 5,13.8954305 5,15 L5,18" id="Shape"></path>
+                    </g>
+                    <g id="loader-(1)" transform="translate(27.000000, 0.000000)" stroke="#5B44F8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M10,0 L10,4" id="Path"></path>
+                        <path d="M10,16 L10,20" id="Path"></path>
+                        <path d="M2.93,2.93 L5.76,5.76" id="Path"></path>
+                        <path d="M14.24,14.24 L17.07,17.07" id="Path"></path>
+                        <path d="M0,10 L4,10" id="Path"></path>
+                        <path d="M16,10 L20,10" id="Path"></path>
+                        <path d="M2.93,17.07 L5.76,14.24" id="Path"></path>
+                        <path d="M14.24,5.76 L17.07,2.93" id="Path"></path>
+                    </g>
+                    <g id="loader-(1)-copy" transform="translate(71.000000, 20.000000) rotate(-75.000000) translate(-71.000000, -20.000000) translate(61.000000, 10.000000)" stroke="#00B2CB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M10,0 L10,4" id="Path"></path>
+                        <path d="M10,16 L10,20" id="Path"></path>
+                        <path d="M2.93,2.93 L5.76,5.76" id="Path"></path>
+                        <path d="M14.24,14.24 L17.07,17.07" id="Path"></path>
+                        <path d="M0,10 L4,10" id="Path"></path>
+                        <path d="M16,10 L20,10" id="Path"></path>
+                        <path d="M2.93,17.07 L5.76,14.24" id="Path"></path>
+                        <path d="M14.24,5.76 L17.07,2.93" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

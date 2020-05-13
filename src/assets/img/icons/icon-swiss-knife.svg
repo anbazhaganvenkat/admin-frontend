@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>3112DD0F-3408-474D-96CA-D87BA2549DDE</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wizard---ExpertType" transform="translate(-854.000000, -163.000000)" fill-rule="nonzero">
+            <g id="Rows" transform="translate(854.000000, 128.000000)">
+                <g id="Stacked-Group-3" transform="translate(0.000000, 35.000000)">
+                    <g id="Icon---4">
+                        <path d="M31,37.66678 L31,13.8772347 C31,6.21303623 37.268,0 45,0 L45,0 L45,37.66678 L31,37.66678 Z" id="Shape" fill="#292934" opacity="0.25"></path>
+                        <path d="M1,38.658011 L1,9.91231052 C1,9.36515098 1.448,8.92107946 2,8.92107946 L12,8.92107946 C12.552,8.92107946 13,9.36515098 13,9.91231052 L13,16.8509279 C10.791,16.8509279 9,18.6262227 9,20.8158521 C9,23.0054815 10.791,24.7807763 13,24.7807763 L13,38.658011 L1,38.658011 Z" id="Shape" fill="#292934" opacity="0.25"></path>
+                        <path d="M39,45.5966284 L7,45.5966284 C3.141,45.5966284 0,42.4841629 0,38.658011 C0,34.8318592 3.141,31.7193937 7,31.7193937 L39,31.7193937 C42.859,31.7193937 46,34.8318592 46,38.658011 C46,42.4841629 42.859,45.5966284 39,45.5966284 Z" id="Shape" fill="#F57059"></path>
+                        <path d="M40,27.7544694 C39.447,27.7544694 39,27.3103979 39,26.7632384 L39,9.91231052 C39,9.36515098 39.447,8.92107946 40,8.92107946 C40.553,8.92107946 41,9.36515098 41,9.91231052 L41,26.7632384 C41,27.3103979 40.553,27.7544694 40,27.7544694 Z" id="Shape" fill="#292934" opacity="0.5"></path>
+                        <ellipse id="Oval" fill="#292934" opacity="0.5" cx="7" cy="38.658011" rx="3" ry="2.97369315"></ellipse>
+                        <ellipse id="Oval" fill="#292934" opacity="0.5" cx="39" cy="38.658011" rx="3" ry="2.97369315"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

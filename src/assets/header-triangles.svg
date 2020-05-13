@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="684px" viewBox="0 0 1440 684" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Pattern/Header</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="684"></rect>
+        <pattern id="pattern-3" width="7.6" height="7.6" x="-7.6" y="523.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-4" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-4" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAbJJREFUeAHt2UFKw1AQxvFG116guCh4HKHepHfwHC56BhceR3AhHsC1JX4fGOgT2vCSzGia/8BQ2uZN3vvx2k7S1YpAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEBgzgLNf5h827a3mseD8l55p1wrHR/KV+WL8rlpmnc9LjcEtVY+Kb+UfeFjfGyHuSw4LXyr/FTWhsdsF6WlBe+Uh1qpo+M9drcINC3UO2sMVufmGpe907RAf2cN+Rh2SL8fXSv1O+0qeVs/6nw3E57TtVwzLdLaCu0Etw5vyuuJV3dQvU1Wy5G5w9xnTY1le9d07ZTIBHNTGhWRtYs5Z4K5g4+KyNrFnDPBIn/NImv/GVhx4rk+ydxhvpCOisjaxZwzwXzXISoiaxdzzgTzLZqoiKxdzJnGteDof5K2w3468X3/lKqP2Gd1+dUzGzvAF8rKWV98jzWoHi8wbu/UqgmNG4gD0LzThnw8PeaybxyewtTCZ/cnSFpbcQrNrwuOv9nOAfEeAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACkwl8Awv64ytFpXvGAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-5" width="7.6" height="7.6" x="761.4" y="574.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-6" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-6" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAbJJREFUeAHt2UFKw1AQxvFG116guCh4HKHepHfwHC56BhceR3AhHsC1JX4fGOgT2vCSzGia/8BQ2uZN3vvx2k7S1YpAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEBgzgLNf5h827a3mseD8l55p1wrHR/KV+WL8rlpmnc9LjcEtVY+Kb+UfeFjfGyHuSw4LXyr/FTWhsdsF6WlBe+Uh1qpo+M9drcINC3UO2sMVufmGpe907RAf2cN+Rh2SL8fXSv1O+0qeVs/6nw3E57TtVwzLdLaCu0Etw5vyuuJV3dQvU1Wy5G5w9xnTY1le9d07ZTIBHNTGhWRtYs5Z4K5g4+KyNrFnDPBIn/NImv/GVhx4rk+ydxhvpCOisjaxZwzwXzXISoiaxdzzgTzLZqoiKxdzJnGteDof5K2w3468X3/lKqP2Gd1+dUzGzvAF8rKWV98jzWoHi8wbu/UqgmNG4gD0LzThnw8PeaybxyewtTCZ/cnSFpbcQrNrwuOv9nOAfEeAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACkwl8Awv64ytFpXvGAAAAAElFTkSuQmCC"></image>
+        <linearGradient x1="100%" y1="50%" x2="3.061617e-15%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="5.72118873e-16%" id="linearGradient-8">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <pattern id="pattern-9" width="7.6" height="7.6" x="1268.4" y="779.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-10" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-10" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAbJJREFUeAHt2UFKw1AQxvFG116guCh4HKHepHfwHC56BhceR3AhHsC1JX4fGOgT2vCSzGia/8BQ2uZN3vvx2k7S1YpAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEBgzgLNf5h827a3mseD8l55p1wrHR/KV+WL8rlpmnc9LjcEtVY+Kb+UfeFjfGyHuSw4LXyr/FTWhsdsF6WlBe+Uh1qpo+M9drcINC3UO2sMVufmGpe907RAf2cN+Rh2SL8fXSv1O+0qeVs/6nw3E57TtVwzLdLaCu0Etw5vyuuJV3dQvU1Wy5G5w9xnTY1le9d07ZTIBHNTGhWRtYs5Z4K5g4+KyNrFnDPBIn/NImv/GVhx4rk+ydxhvpCOisjaxZwzwXzXISoiaxdzzgTzLZqoiKxdzJnGteDof5K2w3468X3/lKqP2Gd1+dUzGzvAF8rKWV98jzWoHi8wbu/UqgmNG4gD0LzThnw8PeaybxyewtTCZ/cnSFpbcQrNrwuOv9nOAfEeAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACkwl8Awv64ytFpXvGAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-11" width="7.6" height="7.6" x="1357.4" y="379.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-12" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-12" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAbJJREFUeAHt2UFKw1AQxvFG116guCh4HKHepHfwHC56BhceR3AhHsC1JX4fGOgT2vCSzGia/8BQ2uZN3vvx2k7S1YpAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEBgzgLNf5h827a3mseD8l55p1wrHR/KV+WL8rlpmnc9LjcEtVY+Kb+UfeFjfGyHuSw4LXyr/FTWhsdsF6WlBe+Uh1qpo+M9drcINC3UO2sMVufmGpe907RAf2cN+Rh2SL8fXSv1O+0qeVs/6nw3E57TtVwzLdLaCu0Etw5vyuuJV3dQvU1Wy5G5w9xnTY1le9d07ZTIBHNTGhWRtYs5Z4K5g4+KyNrFnDPBIn/NImv/GVhx4rk+ydxhvpCOisjaxZwzwXzXISoiaxdzzgTzLZqoiKxdzJnGteDof5K2w3468X3/lKqP2Gd1+dUzGzvAF8rKWV98jzWoHi8wbu/UqgmNG4gD0LzThnw8PeaybxyewtTCZ/cnSFpbcQrNrwuOv9nOAfEeAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACkwl8Awv64ytFpXvGAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-13" width="7.6" height="7.6" x="1715.4" y="597.386856" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-14" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-14" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAbJJREFUeAHt2UFKw1AQxvFG116guCh4HKHepHfwHC56BhceR3AhHsC1JX4fGOgT2vCSzGia/8BQ2uZN3vvx2k7S1YpAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEBgzgLNf5h827a3mseD8l55p1wrHR/KV+WL8rlpmnc9LjcEtVY+Kb+UfeFjfGyHuSw4LXyr/FTWhsdsF6WlBe+Uh1qpo+M9drcINC3UO2sMVufmGpe907RAf2cN+Rh2SL8fXSv1O+0qeVs/6nw3E57TtVwzLdLaCu0Etw5vyuuJV3dQvU1Wy5G5w9xnTY1le9d07ZTIBHNTGhWRtYs5Z4K5g4+KyNrFnDPBIn/NImv/GVhx4rk+ydxhvpCOisjaxZwzwXzXISoiaxdzzgTzLZqoiKxdzJnGteDof5K2w3468X3/lKqP2Gd1+dUzGzvAF8rKWV98jzWoHi8wbu/UqgmNG4gD0LzThnw8PeaybxyewtTCZ/cnSFpbcQrNrwuOv9nOAfEeAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACkwl8Awv64ytFpXvGAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-15" width="7.6" height="7.6" x="1582.4" y="-7.6" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-16" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-16" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAbJJREFUeAHt2UFKw1AQxvFG116guCh4HKHepHfwHC56BhceR3AhHsC1JX4fGOgT2vCSzGia/8BQ2uZN3vvx2k7S1YpAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEBgzgLNf5h827a3mseD8l55p1wrHR/KV+WL8rlpmnc9LjcEtVY+Kb+UfeFjfGyHuSw4LXyr/FTWhsdsF6WlBe+Uh1qpo+M9drcINC3UO2sMVufmGpe907RAf2cN+Rh2SL8fXSv1O+0qeVs/6nw3E57TtVwzLdLaCu0Etw5vyuuJV3dQvU1Wy5G5w9xnTY1le9d07ZTIBHNTGhWRtYs5Z4K5g4+KyNrFnDPBIn/NImv/GVhx4rk+ydxhvpCOisjaxZwzwXzXISoiaxdzzgTzLZqoiKxdzJnGteDof5K2w3468X3/lKqP2Gd1+dUzGzvAF8rKWV98jzWoHi8wbu/UqgmNG4gD0LzThnw8PeaybxyewtTCZ/cnSFpbcQrNrwuOv9nOAfEeAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACkwl8Awv64ytFpXvGAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-17" width="7.6" height="7.6" x="618.4" y="316.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-18" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-18" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAbJJREFUeAHt2UFKw1AQxvFG116guCh4HKHepHfwHC56BhceR3AhHsC1JX4fGOgT2vCSzGia/8BQ2uZN3vvx2k7S1YpAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEBgzgLNf5h827a3mseD8l55p1wrHR/KV+WL8rlpmnc9LjcEtVY+Kb+UfeFjfGyHuSw4LXyr/FTWhsdsF6WlBe+Uh1qpo+M9drcINC3UO2sMVufmGpe907RAf2cN+Rh2SL8fXSv1O+0qeVs/6nw3E57TtVwzLdLaCu0Etw5vyuuJV3dQvU1Wy5G5w9xnTY1le9d07ZTIBHNTGhWRtYs5Z4K5g4+KyNrFnDPBIn/NImv/GVhx4rk+ydxhvpCOisjaxZwzwXzXISoiaxdzzgTzLZqoiKxdzJnGteDof5K2w3468X3/lKqP2Gd1+dUzGzvAF8rKWV98jzWoHi8wbu/UqgmNG4gD0LzThnw8PeaybxyewtTCZ/cnSFpbcQrNrwuOv9nOAfEeAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACkwl8Awv64ytFpXvGAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-19" width="7.6" height="7.6" x="1849.4" y="817.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-20" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-20" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAbJJREFUeAHt2UFKw1AQxvFG116guCh4HKHepHfwHC56BhceR3AhHsC1JX4fGOgT2vCSzGia/8BQ2uZN3vvx2k7S1YpAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEBgzgLNf5h827a3mseD8l55p1wrHR/KV+WL8rlpmnc9LjcEtVY+Kb+UfeFjfGyHuSw4LXyr/FTWhsdsF6WlBe+Uh1qpo+M9drcINC3UO2sMVufmGpe907RAf2cN+Rh2SL8fXSv1O+0qeVs/6nw3E57TtVwzLdLaCu0Etw5vyuuJV3dQvU1Wy5G5w9xnTY1le9d07ZTIBHNTGhWRtYs5Z4K5g4+KyNrFnDPBIn/NImv/GVhx4rk+ydxhvpCOisjaxZwzwXzXISoiaxdzzgTzLZqoiKxdzJnGteDof5K2w3468X3/lKqP2Gd1+dUzGzvAF8rKWV98jzWoHi8wbu/UqgmNG4gD0LzThnw8PeaybxyewtTCZ/cnSFpbcQrNrwuOv9nOAfEeAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACkwl8Awv64ytFpXvGAAAAAElFTkSuQmCC"></image>
+        <linearGradient x1="-2.48949813e-15%" y1="50%" x2="100%" y2="50%" id="linearGradient-21">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pattern/Header">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(-596.000000, -284.000000)" id="Shape">
+                    <polygon stroke="none" fill="url(#pattern-3)" fill-rule="evenodd" opacity="0.400000006" points="451.043015 531 451.043015 531 904.995984 1202.7323 0 1202.7323"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.25" stroke-linejoin="round" points="1315.90468 508 1315.90468 508 1449.66681 705.933156 1183 705.933156"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.149999991" stroke-linejoin="round" points="802.343417 531 1138.84389 1028.93316 468 1028.93316"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.100000001" stroke-linejoin="round" points="1002.33341 531 1138.84389 733 866.697992 733"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.100000001" stroke-linejoin="round" points="1166.80004 346 1276.30201 508.034431 1058 508.034431"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.200000003" stroke-linejoin="round" points="1134.90293 259 1212.30201 373.5305 1058 373.5305"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.200000003" stroke-linejoin="round" points="1495.66496 745 1731.84389 1094.48337 1261 1094.48337"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.100000001" stroke-linejoin="round" points="1723.30805 722 1758.84389 774.583801 1688 774.583801"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.25" stroke-linejoin="round" points="711.794846 856 768.95611 940.583801 655 940.583801"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.25" stroke-linejoin="round" points="1372.79485 239 1429.95611 323.583801 1316 323.583801"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.25" stroke-linejoin="round" points="1955.19717 626 1955.19717 626 2224.1182 1023.93316 1688 1023.93316"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.100000001" stroke-linejoin="round" points="1405.71061 531 1405.71061 531 1496 664.604807 1316 664.604807"></polygon>
+                    <polygon stroke="#e9e9e9" stroke-width="1" fill="none" opacity="0.200000003" stroke-linejoin="round" points="1017.87138 367 1017.87138 367 1058 427 978 427"></polygon>
+                    <polygon stroke="none" fill="url(#pattern-5)" fill-rule="evenodd" opacity="0.25" points="934.851225 582 934.851225 582 1101.77246 829 769 829"></polygon>
+                    <polygon stroke="none" fill="url(#linearGradient-7)" fill-rule="evenodd" opacity="0.049999997" points="2137.37942 252 2137.37942 252 2643 999 1635 999"></polygon>
+                    <polygon stroke="none" fill="url(#linearGradient-7)" fill-rule="evenodd" opacity="0.049999997" points="1879.92605 252 1879.92605 252 2215 748 1547 748"></polygon>
+                    <polygon stroke="none" fill="url(#linearGradient-8)" fill-rule="evenodd" opacity="0.049999997" points="1605.49196 503 1605.49196 503 2076 1199 1138 1199"></polygon>
+                    <polygon stroke="none" fill="url(#linearGradient-7)" fill-rule="evenodd" opacity="0.049999997" points="1015.37942 252 1015.37942 252 1521 999 513 999"></polygon>
+                    <polygon stroke="none" fill="url(#pattern-9)" fill-rule="evenodd" opacity="0.25" points="1365.1796 787 1365.1796 787 1454.93455 919.813974 1276 919.813974"></polygon>
+                    <polygon stroke="none" fill="url(#pattern-11)" fill-rule="evenodd" opacity="0.400000006" points="1418.29535 387 1418.29535 387 1471.93455 466.372052 1365 466.372052"></polygon>
+                    <polygon stroke="none" fill="url(#pattern-13)" fill-rule="evenodd" opacity="0.400000006" points="1826.13458 604.986856 1826.13458 604.986856 1929.93455 758.583801 1723 758.583801"></polygon>
+                    <polygon stroke="none" fill="url(#pattern-15)" fill-rule="evenodd" opacity="0.25" points="1890.53055 0 1890.53055 0 2193 447 1590 447"></polygon>
+                    <polygon stroke="none" fill="url(#pattern-17)" fill-rule="evenodd" opacity="0.100000001" points="725.180064 324 725.180064 324 825 471 626 471"></polygon>
+                    <polygon stroke="none" fill="url(#pattern-19)" fill-rule="evenodd" opacity="0.25" points="1956.18006 825 1956.18006 825 2056 972 1857 972"></polygon>
+                    <polygon stroke="none" fill="url(#linearGradient-21)" fill-rule="evenodd" opacity="0.049999997" points="705.877814 135 705.877814 135 1212 882 203 882"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

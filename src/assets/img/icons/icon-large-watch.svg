@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="48px" viewBox="0 0 32 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>EC87431F-52B6-4CE9-8088-DFFC83404609@2x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Project-Details---Expert---Log-Time" transform="translate(-704.000000, -372.000000)" stroke-width="4">
+            <g id="Modal" transform="translate(492.000000, 348.000000)">
+                <g id="icon-large-watch" transform="translate(214.000000, 26.000000)">
+                    <path d="M23.02,32.7 L22.32,40.36 C22.1331881,42.427455 20.3958608,44.0084229 18.32,44.0000335 L9.66,44.0000335 C7.58413922,44.0084229 5.84681192,42.427455 5.66,40.36 L4.96,32.7 M4.98,11.3 L5.68,3.64 C5.86613654,1.58019912 7.5918069,0.00194783638 9.66,-3.34977587e-05 L18.36,-3.34977587e-05 C20.4358608,-0.00842285537 22.1731881,1.57254498 22.36,3.64 L23.06,11.3" id="Shape" stroke="#335262" fill="#009DDA"></path>
+                    <circle id="Oval" stroke="#335262" fill="#FFFFFF" cx="14" cy="22" r="14"></circle>
+                    <polyline id="Path" stroke="#E86C60" points="14 16 14 22 17 25"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

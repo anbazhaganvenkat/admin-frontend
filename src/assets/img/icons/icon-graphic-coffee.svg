@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="87px" viewBox="0 0 80 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>1670943C-194B-4DC4-AA8A-B7431E7677C1@2x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard---Expert" transform="translate(-501.000000, -292.000000)">
+            <g id="Progress-Section" transform="translate(441.000000, 272.000000)">
+                <g id="graphic-coffee" transform="translate(60.000000, 20.000000)">
+                    <circle id="circle" fill-opacity="0.1" fill="#FDC02E" cx="40" cy="40" r="40"></circle>
+                    <g id="icon-coffee" transform="translate(11.000000, 45.000000)" stroke="#335262" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <path d="M32,14 L34,14 C38.418278,14 42,17.581722 42,22 C42,26.418278 38.418278,30 34,30 L32,30" id="Path"></path>
+                        <path d="M0,14 L32,14 L32,32 C32,36.418278 28.418278,40 24,40 L8,40 C3.581722,40 0,36.418278 0,32 L0,14 Z" id="Path" fill="#E2E2E8"></path>
+                        <path d="M8,0 L8,6" id="Path"></path>
+                        <path d="M16,0 L16,6" id="Path"></path>
+                        <path d="M24,0 L24,6" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

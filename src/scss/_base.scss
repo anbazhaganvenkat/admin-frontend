@@ -1,0 +1,230 @@
+// images to act responsively.
+img {
+  display: block;
+  max-width: 100%;
+}
+
+svg {
+  display: block;
+}
+
+// other base stlyes
+.image-center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.desktop-only {
+  @media (max-width: 992px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.p1 {
+  font-size: 20px;
+}
+
+.p2 {
+  font-size: 18px;
+}
+
+.font-size {
+  @media (min-width: 768px) {
+    font-size: 9px;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 10px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 10px;
+  }
+
+  @media (min-width: 1400px) {
+    font-size: 12px;
+  }
+
+  @media (min-width: 1800px) {
+    font-size: 15px;
+  }
+}
+
+.color-white {
+  color: $color-white;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// btn
+.btn {
+  &.btn-link {
+    &.text-underline {
+      text-decoration: underline;
+    }
+  }
+
+  &.btn-outline-grayed {
+    border: $button-outline-grayed-border;
+    color: $button-outline-grayed-color;
+  }
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-link {
+  color: $color-cerulean;
+}
+
+.text-grayed {
+  opacity: 0.5;
+}
+
+.text-inline-grayed {
+  color: $text-inline-grayed;
+}
+
+.text-gray-dark {
+  color: $color-grey-darker;
+}
+
+.text-orange {
+  color: $color-orange;
+}
+
+.wrap-text {
+  white-space: normal !important;
+}
+
+.text-truncate {
+  max-width: 100%;
+}
+
+// boostrap default overwrites
+.h8 {
+  font-size: 0.625rem;
+}
+
+.h7 {
+  font-size: 0.75rem;
+}
+
+.h7-i {
+  font-size: 0.75rem !important;
+}
+
+.h6-5 {
+  font-size: 0.875rem;
+}
+
+.h6-5-important {
+  font-size: 0.875rem !important;
+}
+
+.h1-5 {
+  font-size: 2.25rem;
+}
+
+.lh-2 {
+  line-height: 2rem !important;
+}
+
+// margins extensions
+
+.mb-4-5 {
+  margin-bottom: 2.5rem !important;
+}
+// badges extension
+
+.badge-outline {
+  background-color: $color-white !important;
+  font-weight: 700 !important;
+
+  &.badge-dark {
+    border: $badge-dark-border;
+    color: $color-dark;
+  }
+}
+
+// replicating badge-group as input-group or button-group below
+.badges {
+  .input-group {
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+
+    > .input-group-prepend {
+      > .input-group-text {
+        padding: 0.25rem 0.5rem;
+
+        svg {
+          width: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.input-group {
+  > .badge {
+    align-items: center;
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: flex-start;
+    margin: 0;
+    min-width: 0;
+    position: relative;
+
+    &:not(:first-child) {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+  }
+
+  &.group-dark {
+    .input-group-text {
+      background-color: $color-dark;
+      border-color: $input-group-text-border;
+      color: $color-white;
+
+      svg {
+        color: currentColor;
+      }
+    }
+  }
+}
+
+// background and color mixes
+.blue-faded {
+  background: $color-cerulean-faded;
+  color: $color-cerulean;
+}
+
+.red-faded {
+  background: $color-notification-orange-faded;
+  color: $color-notification-orange;
+}
+
+.green-faded {
+  background: $color-success-faded;
+  color: $color-success;
+}
+
+.bg-white-ivory {
+  background-color: $color-desert;
+}
+
+// content alignement overrides
+.justify-content-stretch {
+  justify-content: stretch !important;
+}

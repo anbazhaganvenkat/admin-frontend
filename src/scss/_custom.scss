@@ -1,0 +1,1005 @@
+body {
+  font-family: $theme-font !important;
+  font-size: $button-font-size;
+}
+
+.loggedin-layout {
+  background-color: $theme-color-body-background;
+}
+
+.app-body {
+  min-height: 94vh;
+}
+
+@media (max-width: 991px) {
+  .app-body {
+    margin-top: 0;
+  }
+}
+
+.btn-primary {
+  background: $theme-color;
+  border: 1px solid $theme-color;
+  color: $color-white;
+
+  &:hover {
+    background: $theme-color-alt;
+    border: 1px solid $theme-color-alt;
+    color: $color-white;
+  }
+}
+
+button,
+a {
+  &.btn {
+    -moz-border-radius: 0.4375rem;
+    -webkit-border-radius: 0.4375rem;
+    border-radius: 0.4375rem;
+  }
+}
+
+.btn {
+  &.outline-bold {
+    border-width: 2px;
+
+    &:hover {
+      background: 1px solid $theme-color-alt;
+      text-decoration: none;
+    }
+  }
+
+  &.btn-secondary {
+    background-color: $primary-button-color;
+    border: 0;
+    color: $color-white;
+
+    &:hover {
+      background-color: $secondary-button-color-hover;
+      border: 0;
+    }
+
+    &:focus {
+      background-color: $primary-button-color;
+      border: 0;
+      color: $color-white;
+    }
+
+    &.focus {
+      background-color: $primary-button-color;
+      border: 0;
+      color: $color-white;
+    }
+
+    &.disabled {
+      background-color: $primary-button-color;
+      border: 0;
+      color: $color-white;
+    }
+
+    &:disabled {
+      background-color: $primary-button-color;
+      border: 0;
+      color: $color-white;
+    }
+  }
+}
+
+.btn.plain-btn {
+  font-size: 14px;
+  border-color: #fff;
+  padding: 5px 15px !important;
+}
+
+.btn.plain-btn:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+.astric {
+  color: $color-red;
+}
+
+.header--content {
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+.availability-update-form {
+  label {
+    font-size: $label-font-size;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .expert-availability-form-content {
+    margin: auto;
+    width: 55%;
+  }
+}
+
+.radio-btn-label,
+.checkbox-btn-label {
+  font-size: $button-font-size;
+  font-weight: 500;
+}
+
+.checkbox {
+  .checkbox-inline {
+    .form-check-input {
+      margin-top: 9px;
+    }
+  }
+}
+
+.gradient-blue {
+  background-image: linear-gradient(
+    -180deg,
+    $color-cerulean 0%,
+    $color-science-blue 100%
+  );
+}
+
+.find-an-expert-left-side-section-background-image {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 -15px;
+  padding: 0 15px;
+  position: relative;
+}
+
+.main-container {
+  background: $main-container-background;
+  float: left;
+  margin-top: -50px;
+  width: 100%;
+
+  .availability-update-section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and (min-width: 767px) {
+      margin-bottom: 20px;
+    }
+    height: 420px;
+    position: relative;
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      height: 280px;
+    }
+  }
+
+  .availability-update-header-section {
+    @media screen and (min-width: 767px) {
+      -webkit-transform: translate(-50%, -50%);
+      left: 50%;
+      margin-top: 17%;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 400px) {
+      h1 {
+        font-size: $header-font-size;
+      }
+    }
+
+    @media only screen and (min-width: 1500px) {
+      margin-top: 13%;
+    }
+    @media only screen and (min-width: 1305px) and (max-width: 1500px) {
+      margin-top: 15%;
+    }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      margin-top: 10%;
+    }
+    @media screen and (min-width: 991px) and (max-width: 1200px) {
+      margin-top: 20%;
+    }
+    @media screen and (min-width: 768px) and (max-width: 990px) {
+      margin-top: 25%;
+    }
+
+    .header-section {
+      font-size: $header-section-font-size;
+
+      @media screen and (min-width: 320px) and (max-width: 500px) {
+        font-size: $span-font-size;
+      }
+      @media screen and (min-width: 500px) and (max-width: 767px) {
+        font-size: $button-font-size;
+      }
+      @media screen and (min-width: 768px) and (max-width: 990px) {
+        font-size: $sub-menu-font-size;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: $footer-color;
+  bottom: 0;
+  color: $color-white;
+  font-size: $small-font-size;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.google-login {
+  background: $button-google-login !important;
+  border-radius: 8px !important;
+  color: $color-white !important;
+  font-size: $paragraph-font-size !important;
+  justify-content: center;
+  min-height: 46px;
+  position: relative;
+  width: 100%;
+
+  > div {
+    background: $button-google-login !important;
+    position: relative;
+
+    svg {
+      g {
+        path {
+          &:not(:last-child) {
+            fill: $color-white !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.linkedin-login {
+  border-radius: 8px;
+  padding: 0;
+}
+
+.resigter-with-my-email {
+  height: 20px;
+  width: 206px;
+  color: $color-blue !important;
+  font-family: Muli;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.resigter-with-my-email:hover {
+  color: $color-black !important;
+}
+
+.office365Login {
+  width: 100%;
+  min-height: 46px;
+  position: relative;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  svg {
+    path {
+      &:not(:last-child) {
+        fill: $color-white !important;
+      }
+    }
+  }
+
+  > div {
+    z-index: 1;
+    display: block;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  > span {
+    z-index: 0;
+    background-color: #ea6953;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 50px;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius: 4px;
+    font-family: Roboto, sans-serif;
+
+    > span {
+      background-color: rgba(51, 51, 51, 0.16);
+      display: inline-block;
+      width: 2px;
+      position: absolute;
+      left: 50px;
+      top: 6px;
+      bottom: 6px;
+    }
+
+    img {
+      position: absolute;
+      left: 11px;
+      width: 28px;
+      top: 7px;
+    }
+  }
+}
+
+.separator {
+  border-bottom: 1px solid #ccc;
+  margin: 30px 0;
+  position: relative;
+  width: 100%;
+
+  &::before {
+    background-color: $color-white;
+    content: "OR";
+    left: 50%;
+    margin-left: -20px;
+    padding: 0 10px;
+    position: absolute;
+    top: -10.5px;
+  }
+}
+
+.vertical-center {
+  position: absolute !important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-container {
+  color: $color-dark;
+
+  .accepted-terms {
+    span {
+      color: $color-dark;
+    }
+  }
+}
+
+.btn-login {
+  background: $button-btn-login !important;
+  color: $color-white !important;
+  font-size: $paragraph-font-size !important;
+  font-weight: bold !important;
+  min-height: 46px;
+
+  &:hover {
+    background: $button-btn-login-hover !important;
+  }
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  margin-top: 7px !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
+.dropdown-toggle {
+  &:hover {
+    text-decoration: none;
+  }
+
+  &::after {
+    color: $color-white;
+  }
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.logout-sidebar-button {
+  bottom: 118px;
+  display: inline-block !important;
+  position: absolute;
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    bottom: 128px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    bottom: 154px;
+  }
+  width: 100%;
+}
+
+// Page Not Found Starts
+.page-not-found {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-not-found-404 {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    font-size: 3.5rem;
+  }
+}
+// Page Not Found Ends
+
+// Error message starts
+.error-message {
+  color: $error-message-color;
+  font-size: $message-font-size;
+  margin-bottom: 5px;
+  margin-top: -20px;
+}
+// Error message Ends
+
+// removed .components class, it's unnecessary
+
+.bg-color-black {
+  background-color: $bg-background-color-black;
+}
+
+.right-side-content {
+  margin-bottom: 50px;
+}
+
+.accepted-terms {
+  float: left;
+  padding-bottom: 15px;
+
+  span {
+    color: #23282c;
+    float: left;
+    font-size: $span-font-size;
+    margin-top: -3px;
+    padding-left: 10px;
+  }
+
+  input {
+    &[type="checkbox"] {
+      cursor: pointer;
+      float: left;
+      position: relative;
+
+      &::before {
+        background-color: $color-white;
+        border: 2px solid #23282c;
+        border-radius: 3px;
+        content: "";
+        display: block;
+        height: 16px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 16px;
+      }
+
+      &:checked {
+        &::after {
+          -ms-transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          border: solid $color-black;
+          border-width: 0 2px 2px 0;
+          content: "";
+          display: block;
+          height: 10px;
+          left: 6px;
+          position: absolute;
+          top: 2px;
+          transform: rotate(45deg);
+          width: 5px;
+        }
+      }
+    }
+  }
+
+  .invalid-feedback {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+.select__multi-value {
+  background-color: $color-white !important;
+}
+
+.profile-picture-preview {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 110px;
+  object-fit: cover;
+  width: 110px;
+}
+
+.term-and-condition {
+  float: left;
+  font-size: $span-font-size;
+  margin-top: -3px;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.btn.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  background-color: $primary-button-color;
+  border: 0;
+  color: $color-white;
+}
+
+.btn.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: $color-white;
+}
+
+.fa {
+  &.fa-plus {
+    font-size: $small-font-size;
+    padding-left: 0;
+    padding-right: 6px;
+  }
+}
+
+.table-filter {
+  a {
+    color: $theme-color-alt;
+
+    &:hover {
+      color: $color-black;
+      text-decoration: none;
+    }
+  }
+
+  .active {
+    border-bottom: 2px solid $color-primary-alt;
+    color: $color-black;
+
+    a {
+      color: $color-black;
+    }
+  }
+}
+
+@media (max-width: 765px) {
+  .count-card {
+    margin-top: 10px;
+  }
+}
+
+// Update Collection Page
+.collection-playbook {
+  .playbook-field {
+    .margin-top-30 {
+      margin-top: 30px;
+
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.project-list-card {
+  .small {
+    font-size: 12px;
+    opacity: 0.5;
+  }
+
+  .status-header {
+    font-size: 12px;
+    font-weight: bold;
+
+    .notification {
+      background-color: $color-red;
+    }
+  }
+}
+
+.approve-btn-hover {
+  &:hover {
+    background-color: $color-green !important;
+    color: $color-white !important;
+  }
+}
+
+.reject-btn-hover {
+  &:hover {
+    background-color: $color-red !important;
+    color: $color-white !important;
+  }
+}
+
+.landing-page-status-active {
+  background-color: $color-active;
+}
+
+.landing-page-status-draft {
+  background-color: $color-draft;
+}
+
+.landing-create-popup {
+  .modal-content {
+    border-radius: 15px;
+  }
+}
+
+.landing-group-dropdown {
+  .more-dropdown {
+    .btn {
+      &.btn-secondary {
+        svg {
+          fill: #c8c8cb !important;
+        }
+      }
+    }
+  }
+
+  .show {
+    width: auto;
+  }
+}
+
+//Redux table action menu
+.redux-table {
+  .table-responsive {
+    overflow-x: visible;
+  }
+}
+
+.landing-page-status-dropdown {
+  background-color: $color-white;
+  border: 0;
+  padding: 5px;
+  @media screen and (min-width: 767px) {
+    width: 150px;
+  }
+}
+
+.select-style {
+  background: #e7e7ea;
+  border: #e7e7ea;
+  outline: none;
+  width: 187px;
+}
+
+.default-input {
+  background: rgb(243, 243, 244) !important;
+  border: 0 !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  height: 40px !important;
+}
+
+.banner-image-upload-link {
+  color: $color-cerulean;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Toastify__toast-container--top-right {
+  @media only screen and (min-width: 1882px) {
+    right: 43.4em !important;
+    top: 2.8em !important;
+  }
+  @media only screen and (min-width: 1500px) and (max-width: 1882px) {
+    right: 23.4em !important;
+    top: 2.8em !important;
+  }
+  @media only screen and (min-width: 1305px) and (max-width: 1500px) {
+    right: 6em !important;
+    top: 2.8em !important;
+  }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    top: 2.8em !important;
+  }
+  @media screen and (min-width: 991px) and (max-width: 1200px) {
+    right: 2.7em !important;
+    top: 2.8em !important;
+  }
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    right: 2em !important;
+    top: 2.8em !important;
+  }
+}
+
+// Inline Edit in the landing page edit page starts
+.inline-edit-section {
+  margin-bottom: 2.75rem;
+
+  .landing-page-name {
+    font-size: 2.5rem;
+    height: 55px;
+    width: -webkit-fill-available;
+  }
+
+  .landing-page-edit {
+    background-color: #f0f0f0;
+    border: 1px solid #aaa;
+    margin-top: -1px;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    z-index: 2;
+
+    i {
+      border: 1px solid #aaa;
+      cursor: pointer;
+      height: 30px;
+      line-height: 28px;
+      text-align: center;
+      width: 30px;
+    }
+  }
+
+  .landing-page-vanity-url {
+    width: -webkit-fill-available;
+  }
+}
+
+// Experts and playbooks Cards Active Starts
+.active-playbooks {
+  background-color: $color-success;
+  border: 3px;
+  border-radius: 27px;
+}
+
+.inactive-playbooks {
+  background-color: transparent;
+  border: 3px;
+  border-radius: 27px;
+}
+// Experts and playbooks Cards Active Ends
+
+// Landing page blocks edit expert list
+.playbook-list-section {
+  margin-left: -30px !important;
+  margin-right: -30px !important;
+}
+
+// Success message popup starts
+.modal {
+  padding: 0 !important;
+  text-align: center;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    margin-right: -4px;
+    vertical-align: middle;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.success-modal-popup {
+  .modal-content {
+    border-radius: 0;
+    max-width: 100% !important;
+  }
+}
+// Success message popup ends
+
+//Multiline Ellipsis
+.multiline-ellipsis {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.tabs-and-preview {
+  .selected-experts {
+    max-width: none !important;
+  }
+}
+
+//selected Expert card remove
+.remove-expert {
+  color: $color-white;
+  font-size: 50px;
+  position: absolute;
+  right: 20px;
+  top: 0.75rem;
+
+  &:hover {
+    background-color: $color-red;
+    border-radius: 27px;
+  }
+}
+
+.source-more {
+  color: $color-cerulean;
+
+  .feather-trash-2 {
+    &:hover {
+      color: $button-trash-hover;
+      text-decoration: underline solid;
+    }
+  }
+
+  &:hover {
+    color: $button-trash-hover;
+    text-decoration: underline solid;
+  }
+}
+
+.discussion-editor-edit {
+  width: 100%;
+
+  .editor {
+    background: #f3f3f4;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: text;
+    margin-bottom: 2em;
+    padding: 16px;
+  }
+
+  .editor :global(.public-DraftEditor-content) {
+    max-height: 500px;
+    min-height: 40px;
+  }
+
+  .options {
+    margin-bottom: 20px;
+  }
+}
+
+.link-hover {
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+// Ellipsis
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Supporting material preview
+.supporting-material-preview {
+  border: 2px solid #9a9a9a;
+  border-radius: 0 0 5px 5px;
+  border-top: 0;
+  margin-top: -4px;
+  padding: 15px;
+}
+
+// Project deliverable material button section
+.file-preview-button-section {
+  .delete-preview {
+    color: $color-cerulean;
+
+    &:hover {
+      color: $file-preview-delete-button-hover;
+      text-decoration: underline;
+    }
+  }
+}
+
+.credit-card-error {
+  font-size: 0.75rem;
+  color: #df674c;
+  height: 1px;
+}
+
+.invalid-feedback {
+  display: block !important;
+  margin-top: 20px;
+}
+
+.remove-link {
+  cursor: pointer;
+  height: 20px;
+  color: #f61a1e !important;
+  font-family: Muli;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-right: 16px;
+  width: 53px;
+}
+
+.button-link {
+  background: none;
+  height: 20px;
+  width: 38px;
+  color: #009dda;
+  font-family: Muli;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  border: 0;
+  padding: 0;
+}
+
+.button-link:focus {
+  outline: none;
+}
+
+/* Draft Js - Mention */
+.mentionSuggestionsEntryContainer {
+  width: 100%;
+  padding: 5px;
+}
+
+.mentionSuggestionsEntryContainer:hover {
+  cursor: pointer;
+}
+
+.mentionSuggestionsEntryContainerLeft,
+.mentionSuggestionsEntryContainerRight {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.mentionSuggestionsEntryContainerRight {
+  width: 100%;
+  padding-left: 8px;
+}
+
+.mentionSuggestionsEntry {
+  padding: 7px 10px 3px 10px;
+  transition: background-color 0.4s cubic-bezier(0.27, 1.27, 0.48, 0.56);
+}
+
+.mentionSuggestionsEntry:active {
+  background-color: #cce7ff;
+}
+
+.mentionSuggestionsEntryFocused {
+  background-color: #e6f3ff;
+}
+
+.mentionSuggestionsEntryText,
+.mentionSuggestionsEntryTitle {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mentionSuggestionsEntryTitle {
+  font-size: 80%;
+  color: #a7a7a7;
+}
+
+.mentionSuggestionsEntryAvatar {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.mentionSuggestionsEntryEmail {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: normal;
+}
+/* Draft Js - Mention END */
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="28px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>F59B4DA8-DB60-4F21-9F94-4D349D3F210B@2x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard---Expert---Accepted" transform="translate(-1029.000000, -590.000000)" stroke="#335262" stroke-width="2">
+            <g id="Tooltip" transform="translate(996.000000, 381.000000)">
+                <g id="Active" transform="translate(20.000000, 198.000000)">
+                    <g id="icon-certified-expert" transform="translate(10.000000, 8.000000)">
+                        <g id="back" transform="translate(0.000000, 0.857864)" fill="#009DDA">
+                            <rect id="Rectangle" transform="translate(15.000000, 14.142136) rotate(-315.000000) translate(-15.000000, -14.142136) " x="3" y="8.14213562" width="24" height="12" rx="6"></rect>
+                            <rect id="Rectangle-Copy-2" transform="translate(15.000000, 14.142136) rotate(-45.000000) translate(-15.000000, -14.142136) " x="3" y="8.14213562" width="24" height="12" rx="6"></rect>
+                        </g>
+                        <polyline id="Path" fill="#E8694D" stroke-linecap="round" stroke-linejoin="round" points="11.21 20.89 10 30 15 27 20 30 18.79 20.88"></polyline>
+                        <circle id="Oval" fill="#F3F3F5" stroke-linecap="round" stroke-linejoin="round" cx="15" cy="15" r="7"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

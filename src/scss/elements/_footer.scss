@@ -1,0 +1,135 @@
+.site-footer {
+  padding: 2rem 0;
+  background-color: #f8f6ed;
+  #footer-logo {
+    max-width: 136px;
+    margin: 0 0 1rem;
+    display: block;
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .container {
+    padding: 0 56px;
+  }
+}
+.footer-widgets {
+  .footer-widget {
+    max-width: 330px;
+    min-width: 155px;
+    &:not(:last-child) {
+      margin: 0 1.5rem 0 0;
+    }
+  }
+}
+
+.footer-widget {
+  p {
+    line-height: 1.25rem;
+  }
+  dl {
+    dt {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: $text-inline-grayed;
+      text-transform: uppercase;
+      margin: 0 0 1rem;
+    }
+    dd {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      &:not(:last-child) {
+        margin: 0 0 0.5rem;
+      }
+      a {
+        color: $color-input-dark;
+      }
+    }
+  }
+}
+
+.newsletter-wrapper {
+  max-width: 240px;
+  input {
+    background: #eceae3;
+    border-color: transparent;
+    font-size: 0.875rem;
+    height: 40px;
+  }
+  .btn {
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.end-footer {
+  padding: 1.25rem 0;
+  .sidebar-content-box {
+    box-shadow: none;
+    padding: 0;
+    background-color: transparent;
+    a {
+      display: block;
+    }
+    svg {
+      display: block;
+      fill: $color-white;
+      color: $color-white;
+      height: 20px;
+      width: 20px;
+    }
+  }
+  .container {
+    padding: 0 56px;
+  }
+  .endfooter-wrapper {
+    align-items: center;
+    .social-icons {
+      margin-left: auto;
+    }
+  }
+  p {
+    font-size: 0.75rem;
+    margin: 0 1rem 0 0;
+  }
+}
+.salesforce-footer {
+  padding: 114px 0;
+  background: $color-dark;
+  .container {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+  }
+  .logo-wrapper {
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    span {
+      margin-left: 1.25rem;
+    }
+    img {
+      max-height: 72px;
+    }
+  }
+  .link-wrapper {
+    margin-left: auto;
+    ul {
+      list-style-type: none;
+      display: flex;
+      padding-left: 0;
+      margin: 0;
+      li {
+        margin: 0 0 0 1.5rem;
+        a {
+          font-size: 1.25rem;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,317 @@
+.expert-onboarding {
+  margin-bottom: 1.5rem;
+}
+.onboarding-link {
+  background: $color-white;
+  padding: 2.5rem 2.5rem 2.5rem 0;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  color: $color-black;
+  &[href] {
+    &:hover {
+      text-decoration: none;
+      background: #f2fafd;
+      color: $color-black;
+    }
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid $tab-inactive-border;
+  }
+  .onboarding-header {
+    min-width: 180px;
+    max-width: 180px;
+    display: flex;
+    justify-content: center;
+    .icon-wrapper {
+      align-self: center;
+      svg {
+        margin: auto;
+      }
+    }
+  }
+  .step-wrapper {
+    display: flex;
+    align-items: stretch;
+    margin: 0 auto;
+    .step-count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      margin: auto;
+    }
+  }
+  .onboarding-url {
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0 auto auto;
+  }
+  .onboarding-main {
+    p {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .availability {
+    text-decoration: underline solid;
+    margin-bottom: -1.25rem;
+    display: block;
+    &.not-available {
+      color: $color-notification-orange;
+      &:before {
+        background-color: $color-notification-orange;
+      }
+    }
+    &.partially-available {
+      color: $color-yellow;
+      &:before {
+        background-color: $color-yellow;
+      }
+    }
+    &.available {
+      color: $color-success;
+      &:before {
+        background-color: $color-success;
+      }
+    }
+    &:before {
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      content: " ";
+      display: inline-flex;
+      margin-right: 0.5rem;
+    }
+  }
+  .completion-gauge {
+    margin: 0 0 -10px auto;
+    max-width: 150px;
+    min-width: 150px;
+    width: 150px;
+    .feather {
+      height: 44px;
+      width: 44px;
+      color: $color-cerulean;
+    }
+  }
+}
+#incoming-projects-tooltip {
+  margin-bottom: 1.5rem;
+}
+.incoming-project {
+  position: relative;
+  .project-list {
+    margin-top: 0;
+  }
+  .new-message,
+  .new-alert-message,
+  .card-body,
+  .field-wrapper,
+  .project-timeline {
+    opacity: 0.5;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .card-header {
+    &:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: -1px;
+      width: 100%;
+      content: " ";
+      background-color: rgba(255, 255, 255, 0.5);
+      z-index: 0;
+    }
+  }
+}
+
+.how-it-works {
+  padding: 1.5rem 0 0;
+  margin: 0 0 1.5rem;
+  background-color: $color-white;
+  border-top: 1px solid #e2e2e8;
+  .how-it-works-item {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    &:not(:last-child) {
+      margin-bottom: 80px;
+    }
+    &:not(.item-right) {
+      padding-right: 70px;
+    }
+    &.item-right {
+      flex-direction: row-reverse;
+      padding-left: 70px;
+      .img-wrapper {
+        margin-left: 60px;
+        margin-right: 0;
+      }
+    }
+    .img-wrapper {
+      margin-right: 60px;
+      img {
+        max-width: 400px;
+      }
+    }
+    .img-placeholder {
+      width: 400px;
+      height: 300px;
+      background: $tab-inactive-border;
+    }
+    .content-wrapper {
+      h5 {
+        font-weight: 700;
+        margin-bottom: 1.25rem;
+        position: relative;
+      }
+    }
+    .inline-number {
+      font-size: 0.75rem;
+      color: $color-orange;
+      line-height: 1;
+      display: block;
+      text-transform: uppercase;
+    }
+    .title,
+    .inline-number {
+      position: relative;
+      z-index: 2;
+    }
+    .number {
+      width: 61px;
+      height: 126px;
+      position: absolute;
+      top: -63px;
+      left: -30px;
+      font-size: 100px;
+      color: $color-desert;
+      font-weight: 700;
+      display: block;
+      opacity: 0.3;
+      z-index: 0;
+    }
+  }
+}
+
+.set-expert-visibility {
+  padding: 1rem 1.25rem;
+  background-color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  .switch-wrapper {
+    p {
+      margin-bottom: 0 !important;
+      font-size: 1rem;
+      min-width: 24px;
+    }
+    h6 {
+      color: $text-inline-grayed;
+      font-weight: 300;
+    }
+  }
+  .btn {
+    font-size: 0.875rem;
+  }
+}
+
+.expert-details-sidebar {
+  max-width: 240px;
+  min-width: 240px;
+  width: 100%;
+  .sidebar-content {
+    .upload-image {
+      margin: -1.25rem -1.25rem 1.25rem !important;
+    }
+  }
+  .upload-image {
+    .avatar-placeholder,
+    .avatar-picture {
+      padding-top: 73%;
+    }
+    .profile-picture-preview {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      border-radius: 0 !important;
+    }
+  }
+  .form-wrapper {
+    .field-wrapper {
+      &:not(:last-child) {
+        margin-bottom: 0.75rem;
+      }
+      .form-group {
+        label {
+          color: $text-inline-grayed;
+        }
+      }
+    }
+  }
+  .form-group {
+    margin-bottom: 0;
+  }
+}
+
+.edit-user-profile {
+  .datepicker {
+    font-size: 0.875rem;
+  }
+  .marketplace-section-content {
+    position: relative;
+  }
+  .edit-btn {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    color: $color-black;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  textarea {
+    min-height: 200px;
+  }
+  .form-wrapper {
+    .field-wrapper {
+      position: relative;
+      .form-group {
+        margin-bottom: 0.125rem;
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+      .invalid-feedback {
+        top: 100%;
+        margin-top: -0.275rem;
+        font-size: 0.675rem;
+      }
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

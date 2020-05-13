@@ -1,0 +1,208 @@
+import React, { useEffect, useState } from "react";
+import {
+  DropdownItem,
+  DropdownMenu,
+  DropdownToggle,
+  UncontrolledDropdown,
+  NavLink
+} from "reactstrap";
+import Avatar from "../core/Avatar";
+import {
+  getCookie,
+  isCustomer,
+  isExpert,
+  isSuperAdmin,
+  clearCookie
+} from "../../lib/helper";
+import { Link } from "react-router-dom";
+import { apiClient } from "../../apiClient";
+import { endpoints } from "../../configs";
+import history from "../../history";
+import { UserIcon } from "../../assets/img/icons";
+
+function logoutUser() {
+  apiClient.defaults.headers.common.Authorization = null;
+  clearCookie("session_token");
+  clearCookie("role");
+  clearCookie("userId");
+  history.push("/login");
+}
+
+const UserNavDropdown = props => {
+  const [firstName, setFirstName] = useState(null);
+  const [lastName, setLastName] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [avatarUrl, setAvatarUrl] = useState("");
+  const [userId, setUserId] = useState(null);
+  const [expertId, setExpertId] = useState(null);
+
+  // Set session token
+  const token = getCookie("session_token");
+
+  useEffect(() => {
+    setIsLoading(true);
+  }, []);
+
+  const userLoggedIn =
+    getCookie("userId") !== undefined && getCookie("userId") !== "";
+
+  const _getUserDetails = () =>
+    userLoggedIn &&
+    apiClient
+      .get(`${endpoints().userAPI}`)
+      .then(response => {
+        let successMessage;
+        if (response && response.data) {
+          successMessage = response.data.message;
+        }
+
+        const { id, firstName, lastName, avatarUrl, expertId } = response.data;
+
+        setFirstName(firstName);
+        setLastName(lastName);
+        setAvatarUrl(avatarUrl);
+        setExpertId(expertId);
+        setIsLoading(false);
+        setUserId(id);
+      })
+      .catch(error => {
+        if (error.response && error.response.status >= 400) {
+          let errorMessage;
+          const errorRequest = error.response.request;
+          if (errorRequest && errorRequest.response) {
+            errorMessage = JSON.parse(errorRequest.response).message;
+          }
+          console.error(errorMessage);
+        }
+      });
+
+  useEffect(() => {
+    _getUserDetails();
+  }, [isLoading]);
+
+  return (
+    <div className="dropdown-wrapper ml-auto">
+      {userLoggedIn ? (
+        <UncontrolledDropdown inNavbar>
+          <DropdownToggle nav className="p-0">
+            {token && !isLoading && (
+              <Avatar
+                firstName={firstName}
+                lastName={lastName}
+                size="xs"
+                fontSize={12}
+                url={avatarUrl}
+              />
+            )}
+          </DropdownToggle>
+          <DropdownMenu right>
+            <DropdownItem tag={"li"} className={"edit-profile-item"}>
+              {token && (
+                <Avatar
+                  firstName={firstName}
+                  lastName={lastName}
+                  size="customSize"
+                  imageSize={"50"}
+                  url={avatarUrl}
+                />
+              )}
+              <div className="edit-profile-actions">
+                <div className="edit-profile-name">
+                  <strong>
+                    {firstName} {lastName}
+                  </strong>
+                </div>
+                {isExpert() && (
+                  <Link
+                    to={{
+                      pathname: "/edit/public-profile",
+                      state: {
+                        expertId
+                      }
+                    }}
+                    className={[
+                      "edit-profile-name",
+                      "d-block",
+                      `${!props.enable ? "disabled" : ""}`
+                    ].join(" ")}
+                  >
+                    Edit Public Profile
+                  </Link>
+                )}
+              </div>
+            </DropdownItem>
+            <DropdownItem divider />
+            <Link
+              to={{
+                pathname: "/edit/profile",
+                state: {
+                  userId: userId
+                }
+              }}
+              className="edit-profile-name text-decoration-none text-dark d-block"
+            >
+              <DropdownItem>My Settings</DropdownItem>
+            </Link>
+            {isCustomer() ? (
+              <div>
+                <Link
+                  to="/company/settings"
+                  className="text-decoration-none text-dark"
+                >
+                  <DropdownItem>Company Settings</DropdownItem>
+                </Link>
+                <Link
+                  to="/user-management"
+                  className="text-decoration-none text-dark"
+                >
+                  <DropdownItem>User Management</DropdownItem>
+                </Link>
+              </div>
+            ) : (
+              ""
+            )}
+            {isSuperAdmin() ? (
+              <div>
+                <Link
+                  to="/admin-settings"
+                  style={{
+                    color: "inherit",
+                    textDecoration: "none"
+                  }}
+                >
+                  <DropdownItem>Admin Settings</DropdownItem>
+                </Link>
+              </div>
+            ) : (
+              ""
+            )}
+            <DropdownItem divider />
+            <Link
+              to=""
+              onClick={() => logoutUser()}
+              className="edit-profile-logout text-danger"
+              style={{ textDecoration: "none" }}
+            >
+              <DropdownItem>Sign Out</DropdownItem>
+            </Link>
+          </DropdownMenu>
+        </UncontrolledDropdown>
+      ) : (
+        <NavLink
+          href={"/login"}
+          className={[
+            "text-dark",
+            "font-weight-bold",
+            "d-inline-flex",
+            "login-btn",
+            "h6-5"
+          ].join(" ")}
+        >
+          <span className={["mr-2"].join(" ")}>Login</span> <UserIcon />
+        </NavLink>
+      )}
+    </div>
+  );
+};
+
+export default UserNavDropdown;

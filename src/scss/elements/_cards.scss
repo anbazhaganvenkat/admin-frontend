@@ -1,0 +1,253 @@
+//card list
+.card-list-wrapper {
+  > span {
+    margin-bottom: 0.625rem;
+  }
+}
+//card
+.card {
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  .card-button {
+    background-color: $card-button-color;
+    color: white;
+    border-radius: 8px;
+
+    &:hover {
+      background-color: white;
+      color: $card-button-color;
+      border: 1px solid;
+    }
+  }
+  .card-header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 !important;
+    position: relative;
+    .more-dropdown {
+      position: absolute;
+      top: 4px;
+      right: 0;
+    }
+    .card-header-icon {
+      svg {
+        fill: $color-white;
+        color: $color-white;
+        width: 48px;
+        height: 48px;
+        display: block;
+        path {
+          fill: currentColor !important;
+        }
+      }
+      .icon-picker {
+        display: block;
+        span {
+          padding: 0;
+          &.PaintIcon,
+          &.CogIcon,
+          &.DripIcon,
+          &.NestIcon {
+            svg {
+              path {
+                fill: none !important;
+                stroke: currentColor;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .card-body {
+    min-height: 112px;
+    padding: 1.25rem;
+    .card-title {
+      line-height: 1.5rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .user-and-title {
+    margin: 1.5rem 0 0;
+  }
+  .location {
+    margin: 0.75rem 0 0;
+    i {
+      max-width: 0.75rem;
+      margin-right: 0.3125rem;
+      display: block;
+    }
+    small {
+      display: block;
+    }
+  }
+  .rate {
+    margin: 0.75rem 0 0;
+  }
+  .skills {
+    margin: 1.75rem 0 1.5rem;
+  }
+  .badge {
+    padding: 0.125rem 0.5rem;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: $color-white;
+    &.badge-orange {
+      background-color: #df674c;
+    }
+    &:not(:last-child) {
+      margin-right: 0.25rem;
+    }
+  }
+  .certification {
+    margin: 0.25rem 0 0 -1.25rem;
+    .badge {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      &.badge-primary {
+        background-color: $color-cerulean;
+        color: $color-white;
+      }
+    }
+  }
+  .card-footer {
+    padding: 0.5rem 1.25rem;
+    border-top: 0;
+    .price {
+      s {
+        opacity: 0.5;
+        font-weight: 700;
+      }
+    }
+  }
+  @include mobile {
+    max-width: 350px;
+    margin: auto;
+  }
+}
+
+// expert specific
+.expert-card {
+  .card {
+    .card-header {
+      padding: 100% 0 0;
+      .view-full-profile {
+        color: $color-white;
+        padding: 0.5rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.3);
+        display: flex;
+        span {
+          display: block;
+          margin: 0 auto;
+        }
+        svg {
+          margin-right: 0;
+        }
+      }
+    }
+    .certification {
+      position: absolute;
+      top: 0.25rem;
+      left: 0;
+      margin: 0;
+    }
+  }
+}
+
+.expert-select {
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  border-radius: 100%;
+  border: 2px solid $color-white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  &.selected {
+    border-color: $color-success;
+    background-color: $color-success;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+      color: $color-white;
+    }
+  }
+}
+.simple-expert-card {
+  .card-header {
+    border: none;
+    padding: 0;
+  }
+  .user-and-title {
+    span,
+    p {
+      line-height: 1rem;
+    }
+  }
+  .user-title {
+    max-width: 150px;
+    p,
+    span {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.simple-expert-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.playbook-card-link {
+  .card {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+.active-projects-icon {
+  svg {
+    width: 44px;
+    height: 40px;
+    path {
+      color: #99a9b1;
+      fill: currentColor !important;
+    }
+  }
+}
+
+.no-records-icon {
+  svg {
+    width: 44px;
+    height: 42px;
+  }
+}
+
+.card-feedback-icon {
+  svg {
+    fill: rgb(243, 199, 1);
+  }
+}

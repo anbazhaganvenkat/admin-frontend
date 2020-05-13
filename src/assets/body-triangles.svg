@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="684px" viewBox="0 0 1440 684" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Pattern/Repeating - White</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="684"></rect>
+        <pattern id="pattern-3" width="7.6" height="7.6" x="141.4" y="250.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-4" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-4" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAplJREFUeAHt2cFr2lAcB/CYlDgtG+tsB00n3WGHDYYXC7t69S/2Kh4GZQg9tN1lBy/OhU0K26rW+pLxpUjpQ4Ivee+XCV8v5SXv93u/fJrE5Kfn8UMBClCAAhSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhTYZYHK/1B8p9N5dnNz11AqaSRJpeZ5SfhQl7/0/XQeBP704KA67ff7i7LrLRWs2+1Wx+Ofb5dL73gbiDD0JicnR6Ner3e3zXwXc0oDa7fbh/N58CFJksDkwHzfV7Wa+jocDn+ZxNmaa1SsrUVbrU9vFov0fZqmvmlOxNzfV15HUXMVx+PfpvFF54uD4cwCVtHClUpfnZ4e/51MJrOiuUzijf/DJsn1ubhn4TLUt+cdIxdy5o3PEyd6htXrL9+tVumLPIVuisHlOZvN9uL4+3TTfhfbxM4wPDps+21ocqDIidwmMUXmioHhOatIoVmxLnPr64qB4aFUX9zW2GVuvUYxsIcneH15O2OXufUKxcAeX3f0EmyM169SNnJl5xAEyy5kV/YKgvlLdygucz+tWgwMXYenS9sbucytVykGhhaNvritscvceo1iYOhn6YvbGrvMrdco9mo0Go1WURRVlfKe60UUGaNHdn7+OS6SwyRW7AxDUWj+oZ9lUmDWXORCzqw5tveJNxDR3rm9rXy0cSD7++mldCNR7JJcA6F/heYf+lnrbXn+hmHw7eLiy488sUVixMFQLDqlaP4pFTRMu664DOv15LoMLNReChgWxpl2dtaK0c/a9osAN/hm8/BqMBj8QY4yPuL3sE0HuUs/s22qn9soQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACuyPwDyoPzqhlxLNAAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-5" width="7.6" height="7.6" x="533.4" y="431.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-6" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-6" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAplJREFUeAHt2cFr2lAcB/CYlDgtG+tsB00n3WGHDYYXC7t69S/2Kh4GZQg9tN1lBy/OhU0K26rW+pLxpUjpQ4Ivee+XCV8v5SXv93u/fJrE5Kfn8UMBClCAAhSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhTYZYHK/1B8p9N5dnNz11AqaSRJpeZ5SfhQl7/0/XQeBP704KA67ff7i7LrLRWs2+1Wx+Ofb5dL73gbiDD0JicnR6Ner3e3zXwXc0oDa7fbh/N58CFJksDkwHzfV7Wa+jocDn+ZxNmaa1SsrUVbrU9vFov0fZqmvmlOxNzfV15HUXMVx+PfpvFF54uD4cwCVtHClUpfnZ4e/51MJrOiuUzijf/DJsn1ubhn4TLUt+cdIxdy5o3PEyd6htXrL9+tVumLPIVuisHlOZvN9uL4+3TTfhfbxM4wPDps+21ocqDIidwmMUXmioHhOatIoVmxLnPr64qB4aFUX9zW2GVuvUYxsIcneH15O2OXufUKxcAeX3f0EmyM169SNnJl5xAEyy5kV/YKgvlLdygucz+tWgwMXYenS9sbucytVykGhhaNvritscvceo1iYOhn6YvbGrvMrdco9mo0Go1WURRVlfKe60UUGaNHdn7+OS6SwyRW7AxDUWj+oZ9lUmDWXORCzqw5tveJNxDR3rm9rXy0cSD7++mldCNR7JJcA6F/heYf+lnrbXn+hmHw7eLiy488sUVixMFQLDqlaP4pFTRMu664DOv15LoMLNReChgWxpl2dtaK0c/a9osAN/hm8/BqMBj8QY4yPuL3sE0HuUs/s22qn9soQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACuyPwDyoPzqhlxLNAAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-7" width="7.6" height="7.6" x="737.4" y="55.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-8" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-8" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAplJREFUeAHt2cFr2lAcB/CYlDgtG+tsB00n3WGHDYYXC7t69S/2Kh4GZQg9tN1lBy/OhU0K26rW+pLxpUjpQ4Ivee+XCV8v5SXv93u/fJrE5Kfn8UMBClCAAhSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhTYZYHK/1B8p9N5dnNz11AqaSRJpeZ5SfhQl7/0/XQeBP704KA67ff7i7LrLRWs2+1Wx+Ofb5dL73gbiDD0JicnR6Ner3e3zXwXc0oDa7fbh/N58CFJksDkwHzfV7Wa+jocDn+ZxNmaa1SsrUVbrU9vFov0fZqmvmlOxNzfV15HUXMVx+PfpvFF54uD4cwCVtHClUpfnZ4e/51MJrOiuUzijf/DJsn1ubhn4TLUt+cdIxdy5o3PEyd6htXrL9+tVumLPIVuisHlOZvN9uL4+3TTfhfbxM4wPDps+21ocqDIidwmMUXmioHhOatIoVmxLnPr64qB4aFUX9zW2GVuvUYxsIcneH15O2OXufUKxcAeX3f0EmyM169SNnJl5xAEyy5kV/YKgvlLdygucz+tWgwMXYenS9sbucytVykGhhaNvritscvceo1iYOhn6YvbGrvMrdco9mo0Go1WURRVlfKe60UUGaNHdn7+OS6SwyRW7AxDUWj+oZ9lUmDWXORCzqw5tveJNxDR3rm9rXy0cSD7++mldCNR7JJcA6F/heYf+lnrbXn+hmHw7eLiy488sUVixMFQLDqlaP4pFTRMu664DOv15LoMLNReChgWxpl2dtaK0c/a9osAN/hm8/BqMBj8QY4yPuL3sE0HuUs/s22qn9soQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACuyPwDyoPzqhlxLNAAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-9" width="7.6" height="7.6" x="962.4" y="-7.6" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-10" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-10" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAplJREFUeAHt2cFr2lAcB/CYlDgtG+tsB00n3WGHDYYXC7t69S/2Kh4GZQg9tN1lBy/OhU0K26rW+pLxpUjpQ4Ivee+XCV8v5SXv93u/fJrE5Kfn8UMBClCAAhSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhTYZYHK/1B8p9N5dnNz11AqaSRJpeZ5SfhQl7/0/XQeBP704KA67ff7i7LrLRWs2+1Wx+Ofb5dL73gbiDD0JicnR6Ner3e3zXwXc0oDa7fbh/N58CFJksDkwHzfV7Wa+jocDn+ZxNmaa1SsrUVbrU9vFov0fZqmvmlOxNzfV15HUXMVx+PfpvFF54uD4cwCVtHClUpfnZ4e/51MJrOiuUzijf/DJsn1ubhn4TLUt+cdIxdy5o3PEyd6htXrL9+tVumLPIVuisHlOZvN9uL4+3TTfhfbxM4wPDps+21ocqDIidwmMUXmioHhOatIoVmxLnPr64qB4aFUX9zW2GVuvUYxsIcneH15O2OXufUKxcAeX3f0EmyM169SNnJl5xAEyy5kV/YKgvlLdygucz+tWgwMXYenS9sbucytVykGhhaNvritscvceo1iYOhn6YvbGrvMrdco9mo0Go1WURRVlfKe60UUGaNHdn7+OS6SwyRW7AxDUWj+oZ9lUmDWXORCzqw5tveJNxDR3rm9rXy0cSD7++mldCNR7JJcA6F/heYf+lnrbXn+hmHw7eLiy488sUVixMFQLDqlaP4pFTRMu664DOv15LoMLNReChgWxpl2dtaK0c/a9osAN/hm8/BqMBj8QY4yPuL3sE0HuUs/s22qn9soQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACuyPwDyoPzqhlxLNAAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-11" width="7.6" height="7.6" x="-1.6" y="-7.6" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-12" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-12" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAplJREFUeAHt2cFr2lAcB/CYlDgtG+tsB00n3WGHDYYXC7t69S/2Kh4GZQg9tN1lBy/OhU0K26rW+pLxpUjpQ4Ivee+XCV8v5SXv93u/fJrE5Kfn8UMBClCAAhSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhTYZYHK/1B8p9N5dnNz11AqaSRJpeZ5SfhQl7/0/XQeBP704KA67ff7i7LrLRWs2+1Wx+Ofb5dL73gbiDD0JicnR6Ner3e3zXwXc0oDa7fbh/N58CFJksDkwHzfV7Wa+jocDn+ZxNmaa1SsrUVbrU9vFov0fZqmvmlOxNzfV15HUXMVx+PfpvFF54uD4cwCVtHClUpfnZ4e/51MJrOiuUzijf/DJsn1ubhn4TLUt+cdIxdy5o3PEyd6htXrL9+tVumLPIVuisHlOZvN9uL4+3TTfhfbxM4wPDps+21ocqDIidwmMUXmioHhOatIoVmxLnPr64qB4aFUX9zW2GVuvUYxsIcneH15O2OXufUKxcAeX3f0EmyM169SNnJl5xAEyy5kV/YKgvlLdygucz+tWgwMXYenS9sbucytVykGhhaNvritscvceo1iYOhn6YvbGrvMrdco9mo0Go1WURRVlfKe60UUGaNHdn7+OS6SwyRW7AxDUWj+oZ9lUmDWXORCzqw5tveJNxDR3rm9rXy0cSD7++mldCNR7JJcA6F/heYf+lnrbXn+hmHw7eLiy488sUVixMFQLDqlaP4pFTRMu664DOv15LoMLNReChgWxpl2dtaK0c/a9osAN/hm8/BqMBj8QY4yPuL3sE0HuUs/s22qn9soQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACuyPwDyoPzqhlxLNAAAAAAElFTkSuQmCC"></image>
+        <pattern id="pattern-13" width="7.6" height="7.6" x="763.4" y="227.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-14" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-14" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABGdBTUEAALGPC/xhBQAAAplJREFUeAHt2cFr2lAcB/CYlDgtG+tsB00n3WGHDYYXC7t69S/2Kh4GZQg9tN1lBy/OhU0K26rW+pLxpUjpQ4Ivee+XCV8v5SXv93u/fJrE5Kfn8UMBClCAAhSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhTYZYHK/1B8p9N5dnNz11AqaSRJpeZ5SfhQl7/0/XQeBP704KA67ff7i7LrLRWs2+1Wx+Ofb5dL73gbiDD0JicnR6Ner3e3zXwXc0oDa7fbh/N58CFJksDkwHzfV7Wa+jocDn+ZxNmaa1SsrUVbrU9vFov0fZqmvmlOxNzfV15HUXMVx+PfpvFF54uD4cwCVtHClUpfnZ4e/51MJrOiuUzijf/DJsn1ubhn4TLUt+cdIxdy5o3PEyd6htXrL9+tVumLPIVuisHlOZvN9uL4+3TTfhfbxM4wPDps+21ocqDIidwmMUXmioHhOatIoVmxLnPr64qB4aFUX9zW2GVuvUYxsIcneH15O2OXufUKxcAeX3f0EmyM169SNnJl5xAEyy5kV/YKgvlLdygucz+tWgwMXYenS9sbucytVykGhhaNvritscvceo1iYOhn6YvbGrvMrdco9mo0Go1WURRVlfKe60UUGaNHdn7+OS6SwyRW7AxDUWj+oZ9lUmDWXORCzqw5tveJNxDR3rm9rXy0cSD7++mldCNR7JJcA6F/heYf+lnrbXn+hmHw7eLiy488sUVixMFQLDqlaP4pFTRMu664DOv15LoMLNReChgWxpl2dtaK0c/a9osAN/hm8/BqMBj8QY4yPuL3sE0HuUs/s22qn9soQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACuyPwDyoPzqhlxLNAAAAAAElFTkSuQmCC"></image>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pattern/Repeating---White">
+            <g id="Group-2">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Group" mask="url(#mask-2)">
+                    <g transform="translate(24.000000, 40.000000)">
+                        <g id="Borders" opacity="0.400000006" stroke-width="1" fill="none" transform="translate(0.000000, 22.000000)" stroke-linejoin="round">
+                            <polygon id="Shape" stroke="#292934" opacity="0.100000001" points="695.904682 162 695.904682 162 829.666814 359.933156 563 359.933156"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.149999991" points="200.050927 241 401.392506 538.933156 0 538.933156"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.100000001" points="382.333407 185 518.843889 387 246.697992 387"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.100000001" points="546.800036 0 656.302008 162.034431 438 162.034431"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.200000003" points="200.90293 51 278.302008 165.5305 124 165.5305"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.140000001" points="741.372471 431 842.392506 580.483371 641 580.483371"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.149999991" points="1143.30805 248 1178.84389 300.583801 1108 300.583801"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.200000003" points="91.794846 510 148.95611 594.583801 35 594.583801"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.140000001" points="1185.67949 328 1185.67949 328 1304.1182 503.258478 1068 503.258478"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.100000001" points="785.710611 185 785.710611 185 876 318.604807 696 318.604807"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.100000001" points="1254.19741 40 1254.19741 40 1366.11222 205.604807 1143 205.604807"></polygon>
+                            <polygon id="Shape" stroke="#292934" opacity="0.200000003" points="397.871383 21 397.871383 21 438 81 358 81"></polygon>
+                        </g>
+                        <polygon id="Shape" fill="url(#pattern-3)" opacity="0.25" points="314.851225 258 314.851225 258 481.772458 505 149 505"></polygon>
+                        <polygon id="Shape" fill="url(#pattern-5)" opacity="0.25" points="630.179597 439 630.179597 439 719.934545 571.813974 541 571.813974"></polygon>
+                        <polygon id="Shape" fill="url(#pattern-7)" opacity="0.400000006" points="798.295352 63 798.295352 63 851.934545 142.372052 745 142.372052"></polygon>
+                        <polygon id="Shape" fill="url(#pattern-9)" opacity="0.25" points="1097.09003 0 1097.09003 0 1225 189.356436 970 189.356436"></polygon>
+                        <polygon id="Shape" fill="url(#pattern-11)" opacity="0.100000001" points="105.180064 0 105.180064 0 205 147 6 147"></polygon>
+                        <polygon id="Shape" fill="url(#pattern-13)" opacity="0.25" points="1005.24437 235 1005.24437 235 1241 582 771 582"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
