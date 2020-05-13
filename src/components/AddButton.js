@@ -31,7 +31,7 @@ AddButton.propTypes = {
   onClick: PropTypes.func,
   loading: PropTypes.bool,
   className: PropTypes.string,
-  style: PropTypes.object
+  style: PropTypes.object,
 };
 
 export default AddButton;
