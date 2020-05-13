@@ -16,9 +16,6 @@ import PublicPageLayout from "./containers/PublicPageLayout";
 import Dashboard from "./views/dashboard";
 import LoginPage from "./views/login";
 
-// Setting
-import Settings from "./views/adminSettings";
-
 // Users
 import Users from "./views/users";
 import AddUser from "./views/users/AddUser";
@@ -88,13 +85,6 @@ class App extends Component {
                 name="Dashboard"
                 path="/dashboard"
                 component={Dashboard}
-              />
-
-              <DefaultLayout
-                exact
-                name="Admin Settings"
-                path="/admin-settings"
-                component={Settings}
               />
 
               <DefaultLayout

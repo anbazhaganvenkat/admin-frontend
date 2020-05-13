@@ -7,9 +7,6 @@ import Login from "./views/login";
 // Dashboard
 import Dashboard from "./views/dashboard";
 
-// Setting
-import Settings from "./views/adminSettings";
-
 // Users
 import users from "./views/users";
 import AddUser from "./views/users/AddUser";
@@ -37,12 +34,6 @@ const routes = [
     exact: true,
     name: "Dashboard",
     component: Dashboard,
-  },
-  {
-    path: "/admin-settings",
-    exact: true,
-    name: "Admin Settings",
-    component: Settings,
   },
   {
     path: "/users",
