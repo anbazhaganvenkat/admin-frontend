@@ -10,30 +10,10 @@
 @import "./elements/dropdown"; // this will hold all DRODPOWN related code and styles.
 @import "./elements/section"; // this will hold all styles for SECTIONS, moving it to standalone since it's repeated over multiple screens.
 @import "./elements/tabs"; // this will hold all styles for TABS, moving it to standalone since it's repeated over multiple screens.
-@import "./elements/banner"; // this will hold all styles for BANNERS, moving it to standalone since it's repeated over multiple screens.
 @import "./elements/sidebar"; // this will hold all styles for SIDEBAR, moving it to standalone since it's repeated over multiple screens.
-@import "./elements/starrating"; // this will hold all styles for RATINGS and USAGE COUNTERS, moving it to standalone since it's repeated over multiple screens.
-@import "./elements/color_picker"; // this will hold all styles for Color and Icon pickers.
-@import "./elements/tooltip"; // this will hold all styles for Tooltips.
-@import "./elements/drag_drop"; // this will hold all styles for Drag and Drop / Dropzone.
-@import "./elements/project"; // this will hold all styles for Projects related.
-@import "./elements/nl_form"; // this will hold all styles for Natural Language Form.
-@import "./elements/filters"; // this will hold all styles for Natural Language Form Filters.
-@import "./elements/alerts"; // this will hold all styles for Alerts.
 @import "./elements/modal"; // this will hold all styles for Modals.
-@import "./elements/customers"; // this will hold all styles for customers page.
-@import "./elements/discussions"; // this will hold all styles for discussions component page.
-@import "./elements/datepicker"; // this will hold all styles for datepicker component page.
-@import "./elements/checkbox"; // this will hold all styles for checkbox-wrapper component page.
-@import "./elements/statistics"; // this will hold all styles for statistics component page.
 @import "./elements/dashboard"; // this will hold all styles for the dashboard page
-@import "./elements/switch"; // this will hold all styles for the switch component
 @import "./elements/footer"; // this will hold all footer related styles.
-@import "./elements/landingpage"; // this will hold all salesforce landing related styles.
-@import "./elements/salesforce_landing"; // this will hold all salesforce landing related styles.
-
-// playbook page
-@import "./pages/playbook"; // this will hold all styles for the playbook related page;
 
 // forms ( starting with the wizard, hopefully it's the same across all screens)
 @import "./elements/forms";
@@ -42,9 +22,6 @@
 
 // Generic common styles
 @import "base";
-
-// Pages styles
-@import "pages/find_an_expert";
 
 // responsive styles
 @import "responsive/responsive";

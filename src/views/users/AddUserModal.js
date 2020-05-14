@@ -13,8 +13,6 @@ import Form from "../../components/Form";
 // Helper
 import { toString } from "../../lib/helper";
 
-// Assets
-import createLandingIcon from "../../assets/pages/landing-page/create-landing-page.png";
 
 // Action
 import { addNewUser } from "../../actions/user";
@@ -85,7 +83,6 @@ class AddUserModal extends Component {
             <div className="content-wrapper">
               <div className="icon-wrapper">
                 <div className="row justify-content-center mb-2 mt-3">
-                  <img src={createLandingIcon} size="30" alt="" />
                 </div>
                 <p className="text-center mb-3">Create a new User</p>
                 <p

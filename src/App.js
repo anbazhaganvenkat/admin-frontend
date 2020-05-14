@@ -10,7 +10,6 @@ import { getCookie } from "./lib/helper";
 
 /** Layouts **/
 import DefaultLayout from "./containers/DefaultLayout";
-import PublicPageLayout from "./containers/PublicPageLayout";
 
 /** Views **/
 import Dashboard from "./views/dashboard";
@@ -73,13 +72,6 @@ class App extends Component {
                 <Redirect to="/login" />
               </Route>
 
-              <PublicPageLayout
-                exact
-                name="Login"
-                path="/login"
-                component={LoginPage}
-              />
-
               <DefaultLayout
                 exact
                 name="Dashboard"
@@ -104,13 +96,6 @@ class App extends Component {
                 name="User Details"
                 path="/user/edit/:id"
                 component={UserDetails}
-              />
-
-              <PublicPageLayout
-                exact
-                name="Page Not Found"
-                path="/page-not-found"
-                component={Page404}
               />
 
               <DefaultLayout
