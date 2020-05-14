@@ -84,7 +84,7 @@ class AddUserModal extends Component {
         <Modal
           isOpen={isOpen}
           toggle={this._toggle}
-          className="custom-modal-popup"
+          className="custom-modal-popup w-100"
           backdrop="static"
         >
           <ModalHeader toggle={this._toggle}>
@@ -92,13 +92,6 @@ class AddUserModal extends Component {
               <div className="icon-wrapper">
                 <div className="row justify-content-center mb-2 mt-3"></div>
                 <p className="text-center mb-3">Create a new User</p>
-                <p
-                  className="text-center"
-                  style={{ fontSize: "14px", lineHeight: "20px" }}
-                >
-                  Leverage agile frameworks to provide a robust synopsis for
-                  high level overviews placeholder text, replace with blurb here
-                </p>
               </div>
               {/* /.icon-wrapper */}
             </div>
