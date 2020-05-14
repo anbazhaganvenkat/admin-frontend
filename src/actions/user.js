@@ -8,14 +8,6 @@ import {
   RECEIVE_CREATE_NEW_USER,
   NEW_USER_CREATE_ERROR,
 } from "../constants/ActionTypes";
-import {
-  CUSTOMER_ROLE,
-  CUSTOMER_ROLE_TEXT,
-  EXPERT_ROLE,
-  EXPERT_ROLE_TEXT,
-  SUPER_ADMIN_ROLE,
-  ROLE_SUPER_ADMIN_TEXT,
-} from "../constants/roles";
 
 /**
  * Request for creating new user
