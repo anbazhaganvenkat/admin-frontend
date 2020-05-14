@@ -51,6 +51,7 @@ export function _userLogin(data, redirect = false) {
         const errorRequest = error.response.request;
         if (errorRequest && errorRequest.response) {
           errorMessage = JSON.parse(errorRequest.response).message;
+          toast.error(errorMessage);
         }
         return { errorMessage } || {};
       }
