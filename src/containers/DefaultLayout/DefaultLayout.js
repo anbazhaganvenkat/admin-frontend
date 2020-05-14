@@ -15,7 +15,6 @@ import { apiClient } from "../../apiClient";
 import { endpoints, TORCHLITE_WEBSITE_URL } from "../../configs";
 import UserNavDropdown from "../../components/header/UserNavDropdown";
 
-
 const DefaultFooter = React.lazy(() => import("./DefaultFooter"));
 
 class DefaultLayout extends Component {
@@ -42,9 +41,7 @@ class DefaultLayout extends Component {
       // if session_token is null redirect login
       window.location.replace(`/login${redirectUrl}`);
     }
-    
   }
-
 
   loading = () => (
     <div className="animated fadeIn pt-1 text-center">Loading...</div>
@@ -95,7 +92,7 @@ class DefaultLayout extends Component {
               </navbar>
             )}
 
-            {!pathName.includes("/expert-availability") && (
+            {!pathName.includes("/login") && (
               <Navbar
                 className={`navbar navbar-expand-lg ${showNav} ${changeNavBarColor}`}
               >

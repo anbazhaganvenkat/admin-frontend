@@ -7,10 +7,7 @@ import {
   NavLink,
 } from "reactstrap";
 import Avatar from "../Avatar";
-import {
-  getCookie,
-  clearCookie,
-} from "../../lib/helper";
+import { getCookie, clearCookie } from "../../lib/helper";
 import { Link } from "react-router-dom";
 import { apiClient } from "../../apiClient";
 import { endpoints } from "../../configs";
@@ -123,18 +120,7 @@ const UserNavDropdown = (props) => {
           </DropdownMenu>
         </UncontrolledDropdown>
       ) : (
-        <NavLink
-          href={"/login"}
-          className={[
-            "text-dark",
-            "font-weight-bold",
-            "d-inline-flex",
-            "login-btn",
-            "h6-5",
-          ].join(" ")}
-        >
-          <span className={["mr-2"].join(" ")}>Login</span> <UserIcon />
-        </NavLink>
+        ""
       )}
     </div>
   );
