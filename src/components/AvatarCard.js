@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Avatar from "./core/Avatar";
+import Avatar from "./Avatar";
 
 class AvatarCard extends React.Component {
   render() {
@@ -23,7 +23,7 @@ class AvatarCard extends React.Component {
           style={{
             display: "table-cell",
             verticalAlign: "middle",
-            paddingRight: 10
+            paddingRight: 10,
           }}
         >
           <Avatar {...this.props} />
@@ -55,7 +55,7 @@ AvatarCard.propTypes = {
   bgColor: PropTypes.string,
   color: PropTypes.string,
   square: PropTypes.bool,
-  customSize: PropTypes.number
+  customSize: PropTypes.number,
 };
 
 export default AvatarCard;

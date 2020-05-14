@@ -6,7 +6,7 @@ import {
   UncontrolledDropdown,
   NavLink,
 } from "reactstrap";
-import Avatar from "../core/Avatar";
+import Avatar from "../Avatar";
 import {
   getCookie,
   isCustomer,
