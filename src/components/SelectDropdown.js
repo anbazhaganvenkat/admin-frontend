@@ -7,7 +7,7 @@ import {
   DropdownItem,
   ButtonDropdown
 } from "reactstrap";
-import { ChevronDown } from "../../assets/img/icons";
+import { ChevronDown } from "../assets/img/icons";
 
 const SelectDropdown = props => {
   const [selectedValue, setSelectedValue] = useState({});

@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import { isLoggedIn } from "../../lib/helper";
 
 // Components
-import PageTitle from "../../components/core/PageTitle";
+import PageTitle from "../../components/PageTitle";
 import ReduxTable, { ReduxColumn } from "../../components/ReduxTable";
 
 //Add User Popup

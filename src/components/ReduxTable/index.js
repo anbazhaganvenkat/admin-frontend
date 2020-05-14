@@ -4,7 +4,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import { fetchList, setTablePage } from "../../actions/table";
 import "./styles.scss";
-import Pagination from "../../components/core/Pagination";
+import Pagination from "../Pagination";
 import { ChevronDown, ChevronUp } from "../../assets/img/icons";
 import PageSearch from "../PageSearch";
 import Spinner from "../../components/Spinner";

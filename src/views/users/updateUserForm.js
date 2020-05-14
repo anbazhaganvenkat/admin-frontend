@@ -4,11 +4,11 @@ import { toast } from "react-toastify";
 import UserFormFields from "./UserFormFields";
 
 // Components
-import Form from "../../components/core/Form";
-import DeleteButton from "../../components/core/DeleteButton";
-import CancelButton from "../../components/core/CancelButton";
-import SaveButton from "../../components/core/SaveButton";
-import PageTitle from "../../components/core/PageTitle";
+import Form from "../../components/Form";
+import DeleteButton from "../../components/DeleteButton";
+import CancelButton from "../../components/CancelButton";
+import SaveButton from "../../components/SaveButton";
+import PageTitle from "../../components/PageTitle";
 
 // Configs
 import { endpoints } from "../../configs";

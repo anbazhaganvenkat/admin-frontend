@@ -2,38 +2,70 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Button } from "reactstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 
 class DeleteButton extends React.Component {
-  render() {
-    const { type, onClick, loading, className, style } = this.props;
+  constructor(props) {
+    super(props);
+    this.handleMouseHover = this.handleMouseHover.bind(this);
+    this.state = {
+      isHovering: false
+    };
+  }
 
+  handleMouseHover() {
+    this.setState(this.toggleHoverState);
+  }
+
+  toggleHoverState(state) {
+    return {
+      isHovering: !state.isHovering
+    };
+  }
+
+  render() {
+    const { label, onClick, loading, className } = this.props;
+    let style;
+    if (this.state.isHovering) {
+      style = {
+        backgroundColor: "#E86C61",
+        color: "#FFF",
+        border: "1px solid #E86C61",
+        borderRadius: "7px",
+        minWidth: "90px",
+        fontSize: ".875rem",
+        height: "36px"
+      };
+    } else {
+      style = {
+        backgroundColor: "transparent",
+        color: "#E86C61",
+        border: "1px solid #E86C61",
+        borderRadius: "7px",
+        minWidth: "90px",
+        fontSize: ".875rem",
+        height: "36px"
+      };
+    }
     return (
       <Button
-        color="danger"
+        className={className}
         disabled={loading}
         onClick={onClick}
-        type={type || "button"}
-        className={className}
+        type={"button"}
+        onMouseEnter={this.handleMouseHover}
+        onMouseLeave={this.handleMouseHover}
         style={style}
       >
-        <FontAwesomeIcon icon={faTrashAlt} />
-
-        <span style={{ marginLeft: 5 }}>
-          {loading ? "Deleting..." : "Delete"}
-        </span>
+        <span>{loading ? "Deleting..." : label}</span>
       </Button>
     );
   }
 }
 
 DeleteButton.propTypes = {
-  type: PropTypes.string,
   onClick: PropTypes.func,
-  loading: PropTypes.bool,
-  className: PropTypes.string,
-  style: PropTypes.object
+  label: PropTypes.string,
+  loading: PropTypes.bool
 };
 
 export default DeleteButton;

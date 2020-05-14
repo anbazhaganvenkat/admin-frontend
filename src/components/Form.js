@@ -3,9 +3,6 @@ import PropTypes from "prop-types";
 import { Formik, Form as FormikForm } from "formik";
 
 class Form extends React.Component {
-  state = {
-    values: {}
-  };
   render() {
     const {
       initialValues,
@@ -20,7 +17,7 @@ class Form extends React.Component {
         enableReinitialize={enableReinitialize}
         onSubmit={values => onSubmit(values)}
       >
-        <FormikForm>{children}</FormikForm>
+        {() => <FormikForm>{children}</FormikForm>}
       </Formik>
     );
   }

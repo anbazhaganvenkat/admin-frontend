@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Components
-import Text from "../../components/core/Text";
+import Text from "../../components/Text";
 
 class UserFormFields extends Component {
   // Render the form fields

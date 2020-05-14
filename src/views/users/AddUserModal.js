@@ -6,9 +6,9 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
 // Components
-import AddButton from "../../components/core/AddButton";
-import Text from "../../components/core/Text";
-import Form from "../../components/core/Form";
+import AddButton from "../../components/AddButton";
+import Text from "../../components/Text";
+import Form from "../../components/Form";
 
 // Helper
 import { toString } from "../../lib/helper";

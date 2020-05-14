@@ -2,9 +2,9 @@ import React from "react";
 import { toast } from "react-toastify";
 import UserFormFields from "./UserFormFields";
 
-import Form from "../../components/core/Form";
-import CancelButton from "../../components/core/CancelButton";
-import SaveButton from "../../components/core/SaveButton";
+import Form from "../../components/Form";
+import CancelButton from "../../components/CancelButton";
+import SaveButton from "../../components/SaveButton";
 
 // Configs
 import { endpoints } from "../../configs";
