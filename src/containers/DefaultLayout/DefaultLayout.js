@@ -15,8 +15,6 @@ import { apiClient } from "../../apiClient";
 import { endpoints, TORCHLITE_WEBSITE_URL } from "../../configs";
 import UserNavDropdown from "../../components/header/UserNavDropdown";
 
-// Constants
-import { USER_VERIFIED_REQUIRED } from "../../constants/User";
 
 const DefaultFooter = React.lazy(() => import("./DefaultFooter"));
 
@@ -44,37 +42,9 @@ class DefaultLayout extends Component {
       // if session_token is null redirect login
       window.location.replace(`/login${redirectUrl}`);
     }
-
-    if (isExpert() && getCookie("session_token")) {
-      this.checkEmailVerification();
-    }
+    
   }
 
-  // Get user email verification
-  checkEmailVerification = () => {
-    apiClient
-      .get(`${endpoints().userAPI}`)
-      .then((response) => {
-        if (response && response.data) {
-          const { emailVerification } = response.data;
-
-          this.setState({
-            allowAccess:
-              emailVerification === USER_VERIFIED_REQUIRED ? false : true,
-          });
-        }
-      })
-      .catch((error) => {
-        if (error.response && error.response.status >= 400) {
-          let errorMessage;
-          const errorRequest = error.response.request;
-          if (errorRequest && errorRequest.response) {
-            errorMessage = JSON.parse(errorRequest.response).message;
-          }
-          console.error(errorMessage);
-        }
-      });
-  };
 
   loading = () => (
     <div className="animated fadeIn pt-1 text-center">Loading...</div>

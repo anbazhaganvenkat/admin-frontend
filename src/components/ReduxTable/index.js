@@ -8,7 +8,6 @@ import Pagination from "../Pagination";
 import { ChevronDown, ChevronUp } from "../../assets/img/icons";
 import PageSearch from "../PageSearch";
 import Spinner from "../../components/Spinner";
-import { CUSTOMER_SORTBY_RATING } from "../../constants/Customer";
 
 export const ReduxColumn = () => {};
 
@@ -233,9 +232,6 @@ class ReduxTable extends React.Component {
   // Sort by option
   getSortByOptions(value) {
     let sortBy = "";
-    if (value === CUSTOMER_SORTBY_RATING) {
-      sortBy = "rating";
-    }
     let sortDir = "";
     if (this.state.isActive) {
       sortDir = "DESC";
@@ -244,6 +240,8 @@ class ReduxTable extends React.Component {
     }
     this.fetchData(true, sortBy, sortDir);
   }
+
+
 
   render() {
     const {

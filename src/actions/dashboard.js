@@ -7,7 +7,6 @@ import {
 } from "../constants/ActionTypes";
 import { toast } from "react-toastify";
 import { endpoints } from "../configs";
-import { isExpert } from "../lib/helper";
 
 function requestDashboardCount() {
   return { type: REQUEST_DASHBOARD_COUNT };

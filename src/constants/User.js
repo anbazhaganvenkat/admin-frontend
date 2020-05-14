@@ -1,3 +1,0 @@
-export const USER_VERIFIED_NOT_REQUIRED = 0;
-export const USER_VERIFIED_REQUIRED = 1;
-export const USER_VERIFIED_COMPLETED = 2;

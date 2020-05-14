@@ -9,9 +9,6 @@ import {
 import Avatar from "../Avatar";
 import {
   getCookie,
-  isCustomer,
-  isExpert,
-  isSuperAdmin,
   clearCookie,
 } from "../../lib/helper";
 import { Link } from "react-router-dom";
@@ -112,23 +109,6 @@ const UserNavDropdown = (props) => {
                     {firstName} {lastName}
                   </strong>
                 </div>
-                {isExpert() && (
-                  <Link
-                    to={{
-                      pathname: "/edit/public-profile",
-                      state: {
-                        expertId,
-                      },
-                    }}
-                    className={[
-                      "edit-profile-name",
-                      "d-block",
-                      `${!props.enable ? "disabled" : ""}`,
-                    ].join(" ")}
-                  >
-                    Edit Public Profile
-                  </Link>
-                )}
               </div>
             </DropdownItem>
             <DropdownItem divider />

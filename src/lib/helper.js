@@ -1,4 +1,3 @@
-import * as constants from "../constants/roles";
 import moment from "moment";
 
 /**
@@ -108,33 +107,6 @@ export function fromArray(values) {
   }
 
   return arrayData ? arrayData : "";
-}
-
-/**
- * Is Super Admin
- */
-export function isSuperAdmin() {
-  const roleId = parseInt(getCookie("role"));
-
-  return roleId && roleId === constants.SUPER_ADMIN_ROLE;
-}
-
-/**
- * Is Customer
- */
-export function isCustomer() {
-  const roleId = parseInt(getCookie("role"));
-
-  return roleId && roleId === constants.CUSTOMER_ROLE;
-}
-
-/**
- * Is Expert
- */
-export function isExpert() {
-  const roleId = parseInt(getCookie("role"));
-
-  return roleId && roleId === constants.EXPERT_ROLE;
 }
 
 /**
