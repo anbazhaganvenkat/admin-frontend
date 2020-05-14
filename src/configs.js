@@ -4,7 +4,7 @@ const appApi = (path) => `${REACT_APP_API_URL}/${path}`;
 
 // API call routes
 export const endpoints = (version) => ({
-  userLogin: appApi("v1/user/login"),
+  userLogin: appApi("v1/admin"),
   userAvatarUpdate: appApi("v1/user/updateAvatar"),
   dashboardAPI: appApi("v1/dashboard"),
   tagAPI: appApi("v1/tag"),

@@ -19,7 +19,7 @@ import logoBlack from "../../assets/img/common/logo_full_dark.png";
 import { toast } from "react-toastify";
 
 export function _userLogin(data, redirect = false) {
-  apiClient.defaults.headers.common.Authorization = DEFAULT_API_KEY;
+  console.log(data);
   return apiClient
     .post(endpoints().userLogin, data)
     .then((response) => {
@@ -28,10 +28,9 @@ export function _userLogin(data, redirect = false) {
         successMessage = response.data.message;
       }
 
-      const { token, role, email, firstName, lastName, userId } = response.data;
+      const { token, userId } = response.data;
 
       setCookie("session_token", token);
-      setCookie("role", role);
       setCookie("userId", userId);
 
       if (!redirect) {
@@ -107,7 +106,14 @@ class Login extends React.Component {
             Login To Admin Portal
           </h5>
           <div className={["basic-login-form", ""].join(" ")}>
-            <Form>
+            <Form
+              onSubmit={(values) => {
+                values.email = values.email ? values.email : null;
+                values.password = values.password ? values.password : null;
+
+                _userLogin(values);
+              }}
+            >
               <div className={["field-wrapper"].join("")}>
                 <Email
                   name="email"
