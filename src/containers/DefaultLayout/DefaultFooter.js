@@ -12,33 +12,33 @@ class DefaultFooter extends Component {
               <span>
                 &copy; {getCurrentYear()}
                 <a
-                  href={TORCHLITE_WEBSITE_URL}
+                  href={"#"}
                   className="ml-2"
                   target="_blank"
                   style={{ color: "white", textDecoration: "none" }}
                 >
-                  Torchlite
+                  admin
                 </a>
                 . All rights reserved.
               </span>
             </div>
             <div className="col-lg-3 col-sm">
               <div>
-                <a href="https://www.facebook.com/torchlitemarketing/">
+                <a href="#">
                   <i
                     className="fa fa-facebook-official fa-2x pr-3"
                     aria-hidden="true"
                     style={{ color: "white" }}
                   ></i>
                 </a>
-                <a href="https://twitter.com/torchlite?lang=en">
+                <a href="#">
                   <i
                     className="fa fa-twitter fa-2x pr-3"
                     aria-hidden="true"
                     style={{ color: "white" }}
                   ></i>
                 </a>
-                <a href="https://www.instagram.com/mytorchlite/?hl=en">
+                <a href="#">
                   <i
                     className="fa fa-instagram fa-2x pr-3"
                     aria-hidden="true"
@@ -50,7 +50,7 @@ class DefaultFooter extends Component {
                   aria-hidden="true"
                   style={{ color: "white" }}
                 ></i>
-                <a href="https://www.linkedin.com/company/torchlite-marketing/?originalSubdomain=in">
+                <a href="#">
                   <i
                     className="fa fa-linkedin-square fa-2x pr-3"
                     aria-hidden="true"
