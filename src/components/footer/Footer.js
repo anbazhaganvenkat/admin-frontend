@@ -2,12 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Container } from "reactstrap";
-import NewsletterSignupForm from "../NewsletterSignupForm";
 import SVG from "react-inlinesvg";
 import defaultLogo from "../../assets/logo.svg";
 import { TORCHLITE_WEBSITE_URL } from "../../configs";
 
-const Footer = props => {
+const Footer = (props) => {
   return (
     <footer className={["site-footer"].join(" ")}>
       <Container>
@@ -15,7 +14,7 @@ const Footer = props => {
           className={[
             "footer-widgets",
             "d-flex",
-            "justify-content-stretch"
+            "justify-content-stretch",
           ].join(" ")}
         >
           <div className={["footer-widget"].join(" ")}>
@@ -27,7 +26,6 @@ const Footer = props => {
               campaigns by showing them what to do, how to do it, and access to
               those who can get it done.
             </p>
-            <NewsletterSignupForm />
           </div>
 
           <div className={["footer-widget"].join(" ")}>
