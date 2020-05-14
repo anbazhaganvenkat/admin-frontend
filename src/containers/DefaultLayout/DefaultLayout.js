@@ -3,8 +3,6 @@ import { Route, Switch } from "react-router-dom";
 
 // routes config
 import routes from "../../routes";
-import logoBlack from "../../assets/img/common/logo_full_dark.png";
-import logoWhite from "../../assets/logo-white.svg";
 
 import SideBar from "../../components/SideBar";
 
@@ -80,15 +78,7 @@ class DefaultLayout extends Component {
               <navbar
                 className={`navbar navbar-expand-lg ${showNav} ${changeNavBarColor}`}
               >
-                <div className="container">
-                  <img
-                    src={logoWhite}
-                    alt="Torchlite"
-                    className="jss1557"
-                    width="140"
-                    height="29"
-                  />
-                </div>
+                <h2><b>Admin Portal</b></h2>
               </navbar>
             )}
 

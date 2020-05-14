@@ -14,7 +14,6 @@ import { endpoints, DEFAULT_API_KEY } from "../../configs";
 
 // Helper
 import { getCookie, setCookie, getUrlParameter } from "../../lib/helper";
-import logoBlack from "../../assets/img/common/logo_full_dark.png";
 
 import { toast } from "react-toastify";
 
