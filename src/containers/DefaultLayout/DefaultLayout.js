@@ -102,7 +102,7 @@ class DefaultLayout extends Component {
                     className="site-logo"
                     href={TORCHLITE_WEBSITE_URL}
                   >
-                    <img src={logoBlack} alt="Torchlite" className="jss1557" />
+                    <h2><b>Admin Portal</b></h2>
                   </NavbarBrand>
                   <div className="nav-wrapper d-flex align-items-center">
                     <UserNavDropdown enable={allowAccess} />

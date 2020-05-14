@@ -97,12 +97,6 @@ class Login extends React.Component {
     return (
       <div className="p-3 mt-5">
         <div className="card rounded p-4 m-auto" style={{ maxWidth: "450px" }}>
-          <img
-            src={logoBlack}
-            alt="Admin manager"
-            width="140px"
-            className="m-auto"
-          />
           <h5 className="font-weight-bold mt-4 mb-4 text-center">
             Login To Admin Portal
           </h5>
