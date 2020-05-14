@@ -17,7 +17,11 @@ import { endpoints } from "../../configs";
 import { apiClient } from "../../apiClient";
 
 // Helper
-import { toString, getUrlParameter } from "../../lib/helper";
+import {
+  toString,
+  getUrlParameter,
+  removeMaskedPhoneNumber,
+} from "../../lib/helper";
 
 export default class UpdateUserForm extends React.Component {
   constructor(props) {
@@ -48,9 +52,9 @@ export default class UpdateUserForm extends React.Component {
     let success = true;
 
     // define user constants
-    const name = values.name;
+    const email = values.email;
 
-    if (!name) {
+    if (!email) {
       success = false;
     }
 
@@ -59,7 +63,13 @@ export default class UpdateUserForm extends React.Component {
 
   // To Array
   _toArray(values) {
-    values.name = toString(values.name);
+    values.firstName = toString(values.firstName);
+    values.lastName = toString(values.lastName);
+    values.email = toString(values.email);
+    values.phoneNumber = values.phoneNumber
+      ? removeMaskedPhoneNumber(values.phoneNumber)
+      : "";
+    console.log(values);
     return values;
   }
 
@@ -152,10 +162,13 @@ export default class UpdateUserForm extends React.Component {
       return "";
     }
 
-    const { name } = this.state.UserDetails;
+    const { firstName, lastName, email, phoneNumber } = this.state.UserDetails;
 
     const initialValues = {
-      name,
+      firstName,
+      lastName,
+      email,
+      phoneNumber,
     };
 
     return (

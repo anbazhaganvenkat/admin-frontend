@@ -9,10 +9,10 @@ import { bindActionCreators } from "redux";
 import AddButton from "../../components/AddButton";
 import Text from "../../components/Text";
 import Form from "../../components/Form";
+import Phone from "../../components/Phone";
 
 // Helper
-import { toString } from "../../lib/helper";
-
+import { toString, removeMaskedPhoneNumber } from "../../lib/helper";
 
 // Action
 import { addNewUser } from "../../actions/user";
@@ -37,9 +37,9 @@ class AddUserModal extends Component {
   // Validate Fields
   _validateFields(values) {
     let success = true;
-    const name = values.name;
+    const email = values.email;
 
-    if (!name) {
+    if (!email) {
       success = false;
     }
 
@@ -48,7 +48,12 @@ class AddUserModal extends Component {
 
   // To Array
   _toArray(values) {
-    values.name = toString(values.name);
+    values.firstName = toString(values.firstName);
+    values.lastName = toString(values.lastName);
+    values.email = toString(values.email);
+    values.phoneNumber = values.phoneNumber
+      ? removeMaskedPhoneNumber(values.phoneNumber)
+      : "";
     return values;
   }
 
@@ -63,7 +68,10 @@ class AddUserModal extends Component {
   render() {
     const { isOpen } = this.state;
     const initialValues = {
-      name: "",
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
     };
 
     return (
@@ -82,8 +90,7 @@ class AddUserModal extends Component {
           <ModalHeader toggle={this._toggle}>
             <div className="content-wrapper">
               <div className="icon-wrapper">
-                <div className="row justify-content-center mb-2 mt-3">
-                </div>
+                <div className="row justify-content-center mb-2 mt-3"></div>
                 <p className="text-center mb-3">Create a new User</p>
                 <p
                   className="text-center"
@@ -111,14 +118,42 @@ class AddUserModal extends Component {
               <div className="mt-2 mb-3">
                 <div>
                   <Text
-                    name="name"
-                    label="Name"
-                    placeholder="Enter Name"
+                    name="firstName"
+                    label="First Name"
+                    placeholder="Enter First Name"
                     notify="true"
                     error=""
                     required
                   />
                 </div>
+                <div>
+                  <Text
+                    name="lastName"
+                    label="Last Name"
+                    placeholder="Enter Last Name"
+                    error=""
+                    required
+                    notify="true"
+                  />
+                </div>
+                <div>
+                  <Text
+                    name="email"
+                    label="Email"
+                    placeholder="Enter Email"
+                    notify="true"
+                    error=""
+                    required
+                  />
+                </div>
+                <Phone
+                  name="phoneNumber"
+                  label="Phone"
+                  placeholder="Enter Phone"
+                  error=""
+                  required
+                  notify="true"
+                />
               </div>
             </ModalBody>
             <ModalFooter>

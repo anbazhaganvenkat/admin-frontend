@@ -48,6 +48,12 @@ class users extends Component {
             >
               Name
             </ReduxColumn>
+            <ReduxColumn field="email" sortBy="email">
+              Email
+            </ReduxColumn>
+            <ReduxColumn field="phoneNumber" sortBy="phoneNumber">
+              phone
+            </ReduxColumn>
             <ReduxColumn field="createdAt" sortBy="createdAt">
               Created At
             </ReduxColumn>
