@@ -8,7 +8,6 @@ import Pagination from "../../components/core/Pagination";
 import { ChevronDown, ChevronUp } from "../../assets/img/icons";
 import PageSearch from "../PageSearch";
 import Spinner from "../../components/Spinner";
-import SelectDropdown from "../core/SelectDropdown";
 import { CUSTOMER_SORTBY_RATING } from "../../constants/Customer";
 
 export const ReduxColumn = () => {};
@@ -29,9 +28,9 @@ class ReduxTable extends React.Component {
     sortByOptions: [
       {
         value: "a-z",
-        label: "Alphabetical A-Z"
-      }
-    ]
+        label: "Alphabetical A-Z",
+      },
+    ],
   };
 
   componentDidMount() {
@@ -42,7 +41,7 @@ class ReduxTable extends React.Component {
         id,
         apiURL,
         page: table[id] && table[id].currentPage ? table[id].currentPage : 1,
-        pageSize: table[id] && table[id].pageSize ? table[id].pageSize : 10
+        pageSize: table[id] && table[id].pageSize ? table[id].pageSize : 10,
       },
       this.fetchData
     );
@@ -58,7 +57,7 @@ class ReduxTable extends React.Component {
     const { id, apiURL, page, pageSize, searchTerm, pagination } = this.state;
     const {
       table,
-      actions: { fetchList, setTablePage }
+      actions: { fetchList, setTablePage },
     } = this.props;
 
     const listDetails = table[id] || {};
@@ -107,7 +106,7 @@ class ReduxTable extends React.Component {
   toggleSelectAll(data, e) {
     const selectedIds = this.state.selectedIds;
 
-    data.forEach(row => {
+    data.forEach((row) => {
       if (e.target.checked) {
         if (selectedIds.indexOf(row.id) < 0) {
           selectedIds.push(row.id);
@@ -122,7 +121,7 @@ class ReduxTable extends React.Component {
     this.setState(
       {
         selectedAll: e.target.checked,
-        selectedIds: selectedIds
+        selectedIds: selectedIds,
       },
       () => {
         this.props.onBulkSelect(selectedIds);
@@ -138,7 +137,7 @@ class ReduxTable extends React.Component {
    */
   toggleSelect(data, e) {
     const rowIds = [];
-    data.forEach(row => {
+    data.forEach((row) => {
       rowIds.push(row.id);
     });
 
@@ -155,7 +154,7 @@ class ReduxTable extends React.Component {
     }
 
     let selectedLength = 0;
-    rowIds.forEach(rowId => {
+    rowIds.forEach((rowId) => {
       if (selectedIds.indexOf(rowId) >= 0) {
         selectedLength++;
       }
@@ -164,7 +163,7 @@ class ReduxTable extends React.Component {
     this.setState(
       {
         selectedAll: rowIds.length === selectedLength,
-        selectedIds: selectedIds
+        selectedIds: selectedIds,
       },
       () => {
         this.props.onBulkSelect(selectedIds);
@@ -183,14 +182,14 @@ class ReduxTable extends React.Component {
 
     const selectedIds = this.state.selectedIds;
     let selectedLength = 0;
-    data.forEach(row => {
+    data.forEach((row) => {
       if (selectedIds.indexOf(row.id) >= 0) {
         selectedLength++;
       }
     });
 
     this.setState({
-      selectedAll: selectedLength > 0 && selectedLength === data.length
+      selectedAll: selectedLength > 0 && selectedLength === data.length,
     });
   }
 
@@ -203,14 +202,14 @@ class ReduxTable extends React.Component {
     this.setState(
       {
         isSearch: true,
-        searchTerm: encodeURIComponent(event.target.value)
+        searchTerm: encodeURIComponent(event.target.value),
       },
       () =>
         setTimeout(() => {
           this.fetchData(true);
           this.setState({
             selectedAll: false,
-            selectedIds: []
+            selectedIds: [],
           });
         }, 1000)
     );
@@ -227,7 +226,7 @@ class ReduxTable extends React.Component {
     this.fetchData(true, sortBy, sortDir);
   }
 
-  handleSortByChange = value => {
+  handleSortByChange = (value) => {
     this.getSortByOptions(value);
   };
 
@@ -258,7 +257,7 @@ class ReduxTable extends React.Component {
       headerButton,
       searchPlaceholder,
       searchDisabled,
-      newTableHeading
+      newTableHeading,
     } = this.props;
     const listDetails = table[id];
     const isLoading = !listDetails || listDetails.isFetching;
@@ -266,7 +265,7 @@ class ReduxTable extends React.Component {
       selectedAll,
       selectedIds,
       selectedSortOption,
-      sortByOptions
+      sortByOptions,
     } = this.state;
 
     let data = [];
@@ -311,16 +310,6 @@ class ReduxTable extends React.Component {
                       onChange={this.onChange.bind(this)}
                     />
                   )}
-
-                  <SelectDropdown
-                    dropdownLabel="Sort By:"
-                    buttonLabel={selectedSortOption}
-                    dropdownLinks={sortByOptions}
-                    color={"gray"}
-                    hideCaret
-                    selectName={"sortby_experts"}
-                    handleChange={this.handleSortByChange}
-                  />
                 </div>
               ) : (
                 <Row className="mb-3">
@@ -359,7 +348,7 @@ class ReduxTable extends React.Component {
                     />
                   </th>
                 )}
-                {React.Children.map(columns, x => {
+                {React.Children.map(columns, (x) => {
                   // TODO: Santhosh, let's have the "selected" class applied when you click on the TH for the filterings.
                   return (
                     x && (
@@ -408,7 +397,7 @@ class ReduxTable extends React.Component {
                         />
                       </td>
                     )}
-                    {React.Children.map(columns, x => {
+                    {React.Children.map(columns, (x) => {
                       return (
                         x && (
                           <td
@@ -479,13 +468,13 @@ class ReduxTable extends React.Component {
 
 function mapStateToProps(state) {
   return {
-    table: state.table
+    table: state.table,
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators({ fetchList, setTablePage }, dispatch)
+    actions: bindActionCreators({ fetchList, setTablePage }, dispatch),
   };
 }
 

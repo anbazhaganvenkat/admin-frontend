@@ -4,7 +4,7 @@ import {
   DropdownMenu,
   DropdownToggle,
   UncontrolledDropdown,
-  NavLink
+  NavLink,
 } from "reactstrap";
 import Avatar from "../core/Avatar";
 import {
@@ -12,7 +12,7 @@ import {
   isCustomer,
   isExpert,
   isSuperAdmin,
-  clearCookie
+  clearCookie,
 } from "../../lib/helper";
 import { Link } from "react-router-dom";
 import { apiClient } from "../../apiClient";
@@ -28,7 +28,7 @@ function logoutUser() {
   history.push("/login");
 }
 
-const UserNavDropdown = props => {
+const UserNavDropdown = (props) => {
   const [firstName, setFirstName] = useState(null);
   const [lastName, setLastName] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -50,7 +50,7 @@ const UserNavDropdown = props => {
     userLoggedIn &&
     apiClient
       .get(`${endpoints().userAPI}`)
-      .then(response => {
+      .then((response) => {
         let successMessage;
         if (response && response.data) {
           successMessage = response.data.message;
@@ -65,7 +65,7 @@ const UserNavDropdown = props => {
         setIsLoading(false);
         setUserId(id);
       })
-      .catch(error => {
+      .catch((error) => {
         if (error.response && error.response.status >= 400) {
           let errorMessage;
           const errorRequest = error.response.request;
@@ -117,13 +117,13 @@ const UserNavDropdown = props => {
                     to={{
                       pathname: "/edit/public-profile",
                       state: {
-                        expertId
-                      }
+                        expertId,
+                      },
                     }}
                     className={[
                       "edit-profile-name",
                       "d-block",
-                      `${!props.enable ? "disabled" : ""}`
+                      `${!props.enable ? "disabled" : ""}`,
                     ].join(" ")}
                   >
                     Edit Public Profile
@@ -131,51 +131,6 @@ const UserNavDropdown = props => {
                 )}
               </div>
             </DropdownItem>
-            <DropdownItem divider />
-            <Link
-              to={{
-                pathname: "/edit/profile",
-                state: {
-                  userId: userId
-                }
-              }}
-              className="edit-profile-name text-decoration-none text-dark d-block"
-            >
-              <DropdownItem>My Settings</DropdownItem>
-            </Link>
-            {isCustomer() ? (
-              <div>
-                <Link
-                  to="/company/settings"
-                  className="text-decoration-none text-dark"
-                >
-                  <DropdownItem>Company Settings</DropdownItem>
-                </Link>
-                <Link
-                  to="/user-management"
-                  className="text-decoration-none text-dark"
-                >
-                  <DropdownItem>User Management</DropdownItem>
-                </Link>
-              </div>
-            ) : (
-              ""
-            )}
-            {isSuperAdmin() ? (
-              <div>
-                <Link
-                  to="/admin-settings"
-                  style={{
-                    color: "inherit",
-                    textDecoration: "none"
-                  }}
-                >
-                  <DropdownItem>Admin Settings</DropdownItem>
-                </Link>
-              </div>
-            ) : (
-              ""
-            )}
             <DropdownItem divider />
             <Link
               to=""
@@ -195,7 +150,7 @@ const UserNavDropdown = props => {
             "font-weight-bold",
             "d-inline-flex",
             "login-btn",
-            "h6-5"
+            "h6-5",
           ].join(" ")}
         >
           <span className={["mr-2"].join(" ")}>Login</span> <UserIcon />

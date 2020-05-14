@@ -7,7 +7,6 @@ import logoBlack from "../../assets/img/common/logo_full_dark.png";
 import logoWhite from "../../assets/logo-white.svg";
 
 import SideBar from "../../components/SideBar";
-import UtilityList from "../../components/header/UtilityList";
 
 import { getCookie, isExpert } from "../../lib/helper";
 
@@ -29,7 +28,7 @@ class DefaultLayout extends Component {
       avatarUrl: "",
       isLoading: false,
       userId: null,
-      allowAccess: true
+      allowAccess: true,
     };
     this.toggle = this.toggle.bind(this);
   }
@@ -55,17 +54,17 @@ class DefaultLayout extends Component {
   checkEmailVerification = () => {
     apiClient
       .get(`${endpoints().userAPI}`)
-      .then(response => {
+      .then((response) => {
         if (response && response.data) {
           const { emailVerification } = response.data;
 
           this.setState({
             allowAccess:
-              emailVerification === USER_VERIFIED_REQUIRED ? false : true
+              emailVerification === USER_VERIFIED_REQUIRED ? false : true,
           });
         }
       })
-      .catch(error => {
+      .catch((error) => {
         if (error.response && error.response.status >= 400) {
           let errorMessage;
           const errorRequest = error.response.request;
@@ -83,7 +82,7 @@ class DefaultLayout extends Component {
 
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen
+      isOpen: !this.state.isOpen,
     });
   }
 
@@ -139,8 +138,6 @@ class DefaultLayout extends Component {
                     <img src={logoBlack} alt="Torchlite" className="jss1557" />
                   </NavbarBrand>
                   <div className="nav-wrapper d-flex align-items-center">
-                    <UtilityList />
-                    {/* /.utilities */}
                     <UserNavDropdown enable={allowAccess} />
                   </div>
                   {/* /.nav-wrapper */}
@@ -169,7 +166,9 @@ class DefaultLayout extends Component {
                                 path={route.path}
                                 exact={route.exact}
                                 name={route.name}
-                                render={props => <route.component {...props} />}
+                                render={(props) => (
+                                  <route.component {...props} />
+                                )}
                               />
                             ) : null;
                           })}
@@ -190,7 +189,7 @@ class DefaultLayout extends Component {
                         path={route.path}
                         exact={route.exact}
                         name={route.name}
-                        render={props => <route.component {...props} />}
+                        render={(props) => <route.component {...props} />}
                       />
                     ) : null;
                   })}
